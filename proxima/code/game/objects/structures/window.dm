@@ -1,8 +1,7 @@
-/turf/simulated/wall
-	var/stripe_color
+/obj/structure/window
 	can_paint = TRUE
 
-/turf/simulated/wall/examine(mob/user)
+/turf/structure/window/examine(mob/user)
 	. = ..()
 
 	if(paint_color)
