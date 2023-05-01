@@ -2869,4 +2869,10 @@
 #include "proxima\code\modules\TGS\TGSIntegration\TGSChatHelpers.dm"
 #include "proxima\code\modules\TGS\TGSIntegration\TGSChatHooks.dm"
 #include "proxima\code\modules\TGS\TGSIntegration\TGSIntegrationFiles.dm"
+#include "proxima\code\game\atoms.dm"
+#include "proxima\code\game\turf\simulated\walls.dm"
+#include "proxima\code\game\objects\structures\window.dm"
+#include "proxima\code\game\turf\flooring\flooring_decals.dm"
+#include "proxima\code\game\objects\effects\misc.dm"
+// #include "proxima\code\game\objects\items\devices\paint_sprayer.dm"
 // END_INCLUDE
