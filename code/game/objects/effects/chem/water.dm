@@ -11,7 +11,8 @@
 		if(src)
 			qdel(src)
 
-/obj/effect/effect/water/proc/set_color() // Call it after you move reagents to it
+// PRX - was a separate proc now moved to /atom/proc/set_color()
+/obj/effect/effect/water/set_color() // Call it after you move reagents to it
 	icon += reagents.get_color()
 
 /obj/effect/effect/water/proc/set_up(var/turf/target, var/step_count = 5, var/delay = 5)
