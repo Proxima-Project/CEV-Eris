@@ -2848,5 +2848,5 @@
 #include "proxima\code\game\objects\structures\window.dm"
 #include "proxima\code\game\turf\flooring\flooring_decals.dm"
 #include "proxima\code\game\objects\effects\misc.dm"
-#include "proxima\code\game\objects\items\devices\paint_sprayer.dm"
+// #include "proxima\code\game\objects\items\devices\paint_sprayer.dm"
 // END_INCLUDE
