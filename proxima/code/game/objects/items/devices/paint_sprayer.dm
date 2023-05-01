@@ -71,9 +71,9 @@
 		return
 	return
 
-/obj/item/device/floor_painter/proc/paint_wall(/turf/simulated/wall/W, var/mob/user)
-	if ((W.can_paint == TRUE) && paint_colour)
-		W.set_color(paint_color)
+/obj/item/device/floor_painter/proc/paint_wall(/var/atom/A, var/mob/user)
+	if ((A.can_paint == TRUE) && paint_colour)
+		A.set_color(paint_color)
 		add_fingerprint(user)
 		. = TRUE
 
