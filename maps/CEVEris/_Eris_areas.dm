@@ -38,9 +38,6 @@
 	name = "Fueltank Storage"
 	icon_state = "erisblue"
 
-/area/eris/maintenance/sorter
-	name = "Trash Sorter"
-
 /area/eris/maintenance/section1deck1central
 	name = "First Section Deck 1 Fore Maintenance"
 	icon_state = "section1deck1central"
@@ -240,16 +237,6 @@
 	name = "Third Section Starboard Hallway"
 	icon_state = "hallway3side"
 
-/area/eris/hallway/side/section3deck2starboard
-	name = "Third Section Deck 2 Starboard Hallway"
-	icon_state = "hallway3side"
-
-/area/eris/hallway/side/section3deck2port
-	name = "Third Section Deck 2 Port Hallway"
-	icon_state = "hallway3side"
-
-
-
 /area/eris/hallway/side/hydroponicshallway
 	name = "Hydroponics Hallway"
 	icon_state = "erisyellow"
@@ -259,6 +246,7 @@
 
 /area/eris/hallway/side/atmosphericshallway
 	name = "Atmospherics Hallway"
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/eris/hallway/side/cryo
 	name = "Cryo Hallway"
@@ -266,6 +254,7 @@
 /area/eris/hallway/side/bridgehallway
 	name = "Bridge Hallway"
 	icon_state = "erisblue"
+	holomap_color = HOLOMAP_AREACOLOR_COMMAND
 
 /area/eris/hallway/side/eschangara
 	name = "Escape Hangar A"
@@ -300,6 +289,11 @@
 	name = "V.I.P. Bar"
 	icon_state = "erisblue"
 	area_light_color = COLOR_LIGHTING_CREW_SOFT
+	
+/area/eris/command/bridgetoilet
+	name = "V.I.P. Restrooms"
+	icon_state = "erisblue"
+	area_light_color = COLOR_LIGHTING_CREW_SOFT
 
 /area/eris/command/captain
 	name = "\improper Command - Captain's Office"
@@ -308,61 +302,61 @@
 	area_light_color = COLOR_LIGHTING_CREW_SOFT
 
 /area/eris/command/fo
-	name = "\improper Command - First Officer's Office"
+	name = "\improper Command - Head of Personnel's Office"
 	icon_state = "head_quarters"
 	sound_env = SMALL_SOFTFLOOR
 
 /area/eris/command/fo/quarters
-	name = "\improper Command - First Officer's Quarters"
+	name = "\improper Command - Head of Personnel's Quarters"
 	icon_state = "head_quarters"
 	sound_env = SMALL_SOFTFLOOR
 	area_light_color = COLOR_LIGHTING_CREW_SOFT
 
 /area/eris/command/meo
-	name = "\improper Research - MEO's Office"
+	name = "\improper Research - CSO's Office"
 	icon_state = "head_quarters"
 	sound_env = SMALL_SOFTFLOOR
 	holomap_color = HOLOMAP_AREACOLOR_SCIENCE
 
 /area/eris/command/meo/quarters
-	name = "\improper Research - MEO's Quarters"
+	name = "\improper Research - CSO's Quarters"
 	icon_state = "head_quarters"
 	sound_env = SMALL_SOFTFLOOR
 	area_light_color = COLOR_LIGHTING_CREW_SOFT
 
 /area/eris/command/exultant
-	name = "\improper Engineering - Exultant Office"
+	name = "\improper Engineering - Supervisor's Office"
 	icon_state = "head_quarters"
 	sound_env = SMALL_SOFTFLOOR
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/eris/command/exultant/quarters
-	name = "\improper Engineering - Exultant Quarters"
+	name = "\improper Engineering - Supervisor's Quarters"
 	icon_state = "head_quarters"
 	sound_env = SMALL_SOFTFLOOR
 	area_light_color = COLOR_LIGHTING_CREW_SOFT
 
 /area/eris/command/mbo
-	name = "\improper Medbay - MBO's Office"
+	name = "\improper Medbay - CMO's Office"
 	icon_state = "head_quarters"
 	sound_env = SMALL_SOFTFLOOR
 	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
 
 /area/eris/command/mbo/quarters
-	name = "\improper Medbay - MBO's Quarters"
+	name = "\improper Medbay - CMO's Quarters"
 	icon_state = "head_quarters"
 	sound_env = SMALL_SOFTFLOOR
 	area_light_color = COLOR_LIGHTING_CREW_SOFT
 
 /area/eris/command/commander
-	name = "Ironhammer Commander's Office"
+	name = "Aegis Commander's Office"
 	icon_state = "hammerred"
 	sound_env = SMALL_SOFTFLOOR
 	area_light_color = COLOR_LIGHTING_CREW_SOFT
 	holomap_color = HOLOMAP_AREACOLOR_SECURITY
 
 /area/eris/command/merchant
-	name = "\improper Cargo - Merchant Office"
+	name = "\improper Cargo - Guild Office"
 	icon_state = "quart"
 	sound_env = SMALL_SOFTFLOOR
 	holomap_color = HOLOMAP_AREACOLOR_CARGO
@@ -394,7 +388,7 @@
 	name = "\improper Dormitories"
 	icon_state = "Sleep"
 	area_light_color = COLOR_LIGHTING_CREW_SOFT
-	holomap_color = HOLOMAP_AREACOLOR_DORMS
+	holomap_color = HOLOMAP_AREACOLOR_HALLWAYS
 
 /area/eris/crew_quarters/toilet
 	name = "\improper Dormitory Toilets"
@@ -479,11 +473,6 @@
 	icon_state = "bar"
 	sound_env = LARGE_SOFTFLOOR
 
-/area/eris/crew_quarters/barconference
-	name = "\improper Conference Room"
-	icon_state = "erisblue"
-	sound_env = LARGE_SOFTFLOOR
-
 /area/eris/crew_quarters/barbackroom
 	name = "Bar Backroom"
 	icon_state = "erisgreen"
@@ -491,10 +480,6 @@
 /area/eris/crew_quarters/barquarters
 	name = "Bar Quarters"
 	icon_state = "erisblue"
-
-/area/eris/crew_quarters/clubmanager
-	name = "Club Manager's Quarters"
-	icon_state = "erisgreen"
 
 /area/eris/crew_quarters/theatre
 	name = "\improper Theatre"
@@ -517,10 +502,12 @@
 /area/eris/crew_quarters/janitor/
 	name = "\improper Custodial Closet"
 	icon_state = "janitor"
+	holomap_color = HOLOMAP_AREACOLOR_CHURCH
 
 /area/eris/crew_quarters/hydroponics
 	name = "\improper Hydroponics"
 	icon_state = "hydro"
+	holomap_color = HOLOMAP_AREACOLOR_CHURCH
 
 /area/eris/crew_quarters/hydroponics/garden
 	name = "\improper Garden"
@@ -538,16 +525,12 @@
 	name = "Public Hydroponics"
 	icon_state = "erisblue"
 
-/area/eris/crew_quarters/artistoffice
-	name = "\improper Club Artist Office"
-	icon_state = "erisyellow"
-
 // NeoTheology
 
 /area/eris/neotheology
 	icon_state = "erisgreen"
 	area_light_color = COLOR_LIGHTING_NEOTHEOLOGY_BRIGHT
-	holomap_color = COLOR_LIGHTING_NEOTHEOLOGY_DARK
+	holomap_color = HOLOMAP_AREACOLOR_CHURCH
 
 /area/eris/neotheology/chapel
 	name = "\improper Chapel"
@@ -568,11 +551,6 @@
 /area/eris/neotheology/office
 	name = "\improper Chapel Office"
 	icon_state = "chapeloffice"
-	area_light_color = COLOR_LIGHTING_NEOTHEOLOGY_DARK
-
-/area/eris/neotheology/funeral
-	name = "\improper Funeral Chamber"
-	icon_state = "erisyellow"
 	area_light_color = COLOR_LIGHTING_NEOTHEOLOGY_DARK
 
 /area/eris/neotheology/chapelritualroom
@@ -613,6 +591,7 @@
 /area/eris/engineering/shield_generator
 	name = "Shield Generator Room"
 	icon_state = "blueold"
+	flags = AREA_FLAG_CRITICAL
 
 /area/eris/engineering/long_range_scanner
 	name = "Long Range Scanner Room"
@@ -677,7 +656,7 @@
 	icon_state = "engineering_storage"
 	area_light_color = COLOR_LIGHTING_SCI_DARK
 
-/area/eris/engineering/breakroom
+/area/eris/engineering/break_room
 	name = "\improper Engineering Break Room"
 	icon_state = "engineering_break"
 	sound_env = MEDIUM_SOFTFLOOR
@@ -721,6 +700,10 @@
 	name = "Telecommunications Monitor Room"
 	icon_state = "erisred"
 
+/area/eris/engineering/breakroom
+	name = "Engineering Break Room"
+	icon_state = "erisred"
+
 /area/eris/engineering/freezercontrol
 	name = "Freezer Control"
 	icon_state = "erisred"
@@ -750,7 +733,7 @@
 	name = "Right Propulsion Hangar"
 
 //MedBay
-/area/eris/medical/medbay
+/area/eris/medical
 	name = "\improper Medical"
 	icon_state = "erisgreen"
 	area_light_color = COLOR_LIGHTING_SCI_BRIGHT
@@ -902,9 +885,6 @@
 	name = "Medbay Upper Coridor"
 	icon_state = "erisgreen"
 
-/area/eris/medical/medbay/organs
-	name = "\improper Visceral Research"
-	icon_state = "erisgreen"
 
 
 
@@ -1015,7 +995,7 @@
 	is_maintenance = TRUE
 
 /area/eris/security/barracks
-	name = "Ironhammer Barracks"
+	name = "Security Barracks"
 	icon_state = "hammerblue"
 
 /area/eris/security/prisoncells
@@ -1032,7 +1012,7 @@
 	icon_state = "hammerred"
 
 /area/eris/security/exerooms
-	name = "Executive Rooms"
+	name = "Security Interrogation and Treatment"
 	icon_state = "hammerred"
 	area_light_color = COLOR_LIGHTING_SCI_DARK
 
@@ -1052,6 +1032,10 @@
 /area/eris/quartermaster/office
 	name = "\improper Cargo Office"
 	icon_state = "quartoffice"
+
+/area/eris/quartermaster/artistoffice
+	name = "\improper Guild Artist Office"
+	icon_state = "erisyellow"
 
 /area/eris/quartermaster/storage
 	name = "\improper Cargo Bay"
@@ -1105,7 +1089,7 @@
 	icon_state = "robotics"
 
 /area/eris/rnd/rdoffice
-	name = "\improper Moebius Expedition Overseer's Office"
+	name = "\improper Chief Science Officer's Office"
 	icon_state = "head_quarters"
 
 /area/eris/rnd/supermatter
@@ -1174,7 +1158,70 @@
 /area/eris/storage/primary
 	name = "Primary Tool Storage"
 	icon_state = "primarystorage"
+	holomap_color = HOLOMAP_AREACOLOR_HALLWAYS
 
 /area/eris/storage/tech
 	name = "Technical Storage"
 	icon_state = "auxstorage"
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+
+//Drydock
+/area/eris/drydock/arrival
+	name = "Drydock - Arrivals"
+	icon_state = "Sleep"
+
+/area/eris/drydock/quartoffice
+	name = "Drydock - Cargo Office"
+	icon_state = "quartoffice"
+
+/area/eris/drydock/engineering
+	name = "Drydock - Engineering"
+	icon_state = "engineering_workshop"
+
+/area/eris/drydock/chapel
+	name = "Drydock - Chapel"
+	icon_state = "chapel"
+
+/area/eris/drydock/security/office
+	name = "Drydock - Security Office"
+	icon_state = "security"
+
+/area/eris/drydock/security/cells
+	name = "Drydock - Security Brig"
+	icon_state = "hammerblue"
+
+/area/eris/drydock/medical
+	name = "Drydock - Medbay"
+	icon_state = "medbay"
+
+/area/eris/drydock/bar
+	name = "Drydock - Bar"
+	icon_state = "bar"
+
+/area/eris/drydock/hallway
+	name = "Drydock - Corridor"
+	icon_state = "hallway2"
+
+/area/eris/drydock/auxstorage
+	name = "Drydock - Tech Storage"
+	icon_state = "auxstorage"
+
+/area/eris/drydock/sleep
+	name = "Drydock - Dormitories"
+	icon_state = "Sleep"
+
+/area/eris/drydock/command/bridge
+	name = "Drydock - Bridge"
+	icon_state = "bridge"
+
+/area/eris/drydock/command/quarters
+	name = "Drydock - Command Dorms"
+	icon_state = "head_quarters"
+
+/area/eris/drydock/command/bar
+	name = "Drydock - VIP Bar"
+	icon_state = "erisblue"
+
+/area/eris/drydock/fitness
+	name = "Drydock - Beach"
+	icon_state = "fitness"
