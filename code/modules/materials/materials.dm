@@ -479,9 +479,18 @@ var/list/name_to_material
 	)
 
 /material/plasteel/titanium
-	name = "titanium"
-	stack_type = null
-	icon_base = "metal"
+	name = MATERIAL_TITANIUM
+	stack_type = /obj/item/stack/material/titanium
+	icon_colour = COLOR_TITANIUM // "#6c7274" can be used as alternative, i dunno
+	weight = 10
+
+/material/plasteel/titanium/plastan
+	name = MATERIAL_PLASTAN
+	stack_type = /obj/item/stack/material/plastan
+	icon_colour = "#6c7274"
+	integrity = 1000
+	melting_point = 10000
+	hardness = 150
 	weight = 20
 	hardness = 90
 	door_icon_base = "metal"
@@ -496,6 +505,7 @@ var/list/name_to_material
 		bio = 35,
 		rad = 0
 	)
+	stack_origin_tech = list(TECH_MATERIAL = 5)
 
 /material/glass
 	name = MATERIAL_GLASS
