@@ -126,6 +126,16 @@ var/global/list/ore_data = list()
 	ore = /obj/item/ore/osmium
 	scan_icon = "mineral_rare"
 
+/ore/titanium
+	name = ORE_TITANIUM
+	display_name = "raw titanium"
+	smelts_to = MATERIAL_TITANIUM
+	alloy = 1
+	result_amount = 5
+	spread_chance = 10
+	ore = /obj/item/ore/titanium
+	scan_icon = "mineral_rare"
+
 /ore/hydrogen
 	name = ORE_HYDROGEN
 	display_name = "metallic hydrogen"
