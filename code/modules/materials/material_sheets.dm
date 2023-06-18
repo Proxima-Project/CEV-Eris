@@ -428,8 +428,8 @@
 
 /obj/item/stack/material/titanium
 	name = "titanium"
-	icon = 'proxima/icons/obj/stack/material_tinanium.dmi'
-	icon_state = "sheet_titanium"
+	icon = 'proxima/icons/obj/stack/material_titanium.dmi'
+	icon_state = "sheet-titanium"
 	item_state = "sheet-metal"
 	price_tag = 25
 	default_type = MATERIAL_TITANIUM
@@ -448,6 +448,7 @@
 	icon_state = "sheet-plasteel"
 	item_state = "sheet-metal"
 	price_tag = 50
+	default_type = MATERIAL_PLASTAN
 
 /obj/item/stack/material/plastan/full
 	amount = 120
