@@ -29,6 +29,7 @@
 #define MATERIAL_CARPET "carpet"
 #define MATERIAL_BIOMATTER "biomatter"
 #define MATERIAL_COMPRESSED "compressed matter"
+#define MATERIAL_PLASTAN	"plastan"
 
 #define MATERIAL_LIST list(\
 	MATERIAL_STEEL,\
@@ -76,6 +77,7 @@
 #define ORE_GOLD "o_gold"
 #define ORE_PLATINUM "o_platinum"
 #define ORE_HYDROGEN "o_hydrogen"
+#define ORE_TITANIUM "o_titanium"
 
 #define ORE_LIST list(\
 	ORE_CARBON,\
@@ -86,4 +88,7 @@
 	ORE_DIAMOND,\
 	ORE_SILVER,\
 	ORE_GOLD,\
-	ORE_PLATINUM)
+	ORE_PLATINUM
+	,\
+	ORE_TITANIUM
+	)
