@@ -42,3 +42,15 @@
 		)
 	product = /obj/item/stack/material/glass/plasmaglass
 
+/datum/alloy/plastan
+	name = "Plastitanium"
+	metaltag = MATERIAL_PLASTAN
+	ore_input = 5
+	requires = list(
+		ORE_PLASMA = 1,
+		ORE_CARBON = 1,
+		ORE_IRON = 1,
+		ORE_TITANIUM = 2,
+	)
+	product = /obj/item/stack/material/plastan
+	product_mod = 0.5
