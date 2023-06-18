@@ -425,3 +425,36 @@
 	item_state = "rcdammo"
 	default_type = MATERIAL_COMPRESSED
 	price_tag = 30
+
+/obj/item/stack/material/titanium
+	name = "titanium"
+	icon = 'proxima/icons/obj/stack/material_titanium.dmi'
+	icon_state = "sheet-titanium"
+	item_state = "sheet-metal"
+	price_tag = 25
+	default_type = MATERIAL_TITANIUM
+
+/obj/item/stack/material/titanium/full
+	amount = 120
+
+/obj/item/stack/material/titanium/random
+	rand_min = 3
+	rand_max = 20
+	spawn_tags = SPAWN_TAG_MATERIAL_BUILDING
+	rarity_value = 5
+
+/obj/item/stack/material/plastan
+	name = "plastan"
+	icon_state = "sheet-plasteel"
+	item_state = "sheet-metal"
+	price_tag = 50
+	default_type = MATERIAL_PLASTAN
+
+/obj/item/stack/material/plastan/full
+	amount = 120
+
+/obj/item/stack/material/plastan/random
+	rand_min = 3
+	rand_max = 20
+	spawn_tags = SPAWN_TAG_MATERIAL_BUILDING
+	rarity_value = 5

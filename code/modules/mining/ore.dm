@@ -93,6 +93,13 @@
 	rarity_value = 50
 	price_tag = 5
 
+/obj/item/ore/titanium
+	name = "raw titanium"
+	icon_state = "ore_titanium"
+	material = ORE_TITANIUM
+	rarity_value = 50
+	price_tag = 5
+
 /obj/item/ore/hydrogen
 	name = "raw hydrogen"
 	icon_state = "ore_hydrogen"
