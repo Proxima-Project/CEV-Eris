@@ -116,8 +116,19 @@
 	return
 
 /turf/simulated/wall/titanium/New(var/newloc)
-	..(newloc, MATERIAL_VOXALLOY)
+	..(newloc, MATERIAL_TITANIUM)
 
+/turf/simulated/wall/titanium/reinforced/New(var/newloc)
+	..(newloc, MATERIAL_TITANIUM, MATERIAL_TITANIUM)
+
+/turf/simulated/wall/plastan/New(var/newloc)
+	..(newloc, MATERIAL_PLASTAN)
+
+/turf/simulated/wall/plastan/reinforced/New(var/newloc)
+	..(newloc, MATERIAL_PLASTAN, MATERIAL_PLASTAN)
+
+/turf/simulated/wall/plastan/reinforced/hull
+	paint_color = COLOR_HULL_BLUE
 
 //Untinted walls have white color, all their coloring is built into their sprite and they should really not be given a tint, it'd look awful
 /turf/simulated/wall/untinted
