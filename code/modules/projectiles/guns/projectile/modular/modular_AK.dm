@@ -22,7 +22,7 @@
 
 	gun_tags = list(GUN_SILENCABLE)
 
-	serial_type = "FS"
+	serial_type = "LA"
 
 	required_parts = list(/obj/item/part/gun/modular/mechanism/autorifle = 0, /obj/item/part/gun/modular/barrel = 0, /obj/item/part/gun/modular/grip = 0, /obj/item/part/gun/modular/stock = -1)
 
@@ -31,11 +31,11 @@
 	if(grip_type)
 		switch(grip_type)
 			if("wood")
-				return "FS [stock_type] [caliber] \"Vipr\""
+				return "LA [stock_type] [caliber] \"Vipr\""
 			if("black")
 				return "BM [stock_type] [caliber] \"MPi-K\"" // Name of East-German AKs
 			if("rubber")
-				return "FS [stock_type] [caliber] \"Venger\""
+				return "LA [stock_type] [caliber] \"Venger\""
 			if("excelsior")
 				return "Excelsior [stock_type] [caliber] \"Kalashnikov\""
 			if("serbian")
