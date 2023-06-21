@@ -228,7 +228,7 @@
 
 /obj/item/gun/projectile/shotgun/pump/gladstone
 	name = "LA SG \"Gladstone\""
-	desc = "It is a next-generation Frozen Star shotgun intended as a cost-effective competitor to the aging NT \"Regulator 1000\". It has a semi-rifled lightweight full-length barrel which gives it exceptional projectile velocity and armor piercing capabilites with slugs, with a high-capacity magazine tube below it. Can hold up to 9+1 shells in a tube magazine."
+	desc = "It is a next-generation Lawson Arms shotgun intended as a cost-effective competitor to the aging NT \"Regulator 1000\". It has a semi-rifled lightweight full-length barrel which gives it exceptional projectile velocity and armor piercing capabilites with slugs, with a high-capacity magazine tube below it. Can hold up to 9+1 shells in a tube magazine."
 
 /obj/item/gun/projectile/shotgun/pump
 	name = "LA SG \"Kammerer\""
@@ -237,9 +237,131 @@
 	name = "Lawson Arms \"Watchman\" scope"
 
 /datum/category_item/setup_option/background/origin/shimatengoku
-	name = "Tau Ceti"
-	desc = "Founded by a Japanese megacorporation, Shimatengoku was - and still is - a high tech paradise. With 95% of its surface covered in seawater, its residents mostly live on islands, or drift along on gigantic oceanborne colonies. \
-			When the time of the Corporation War came, Shimatengoku made the wise decision to side with the Syndicate, and prospered immensely as a result. \
-			While there is a local government administration, the planet is mostly controlled by Frozen Star, an enormous company that is responsible for producing most of the military products found in Hanza. \
-			Frozen Star itself is owned by a family with ties to the Yakuza, organized crime syndicates originating from old Earth's Japan. Fittingly, is a cruelly efficient place. \
-			Gives you knowledge of the Neohongo language."
+	name = "Тау Кита"
+	desc = "Кита Эпсилон - обитаемая планета с умеренным и тёплым климатом расположенная в системе Тау-Сети. \
+	Планета представляет собой большой урбанистический город под названием Верлиз, поделенный несколько отдельных районов. \
+	\"Кита\", как называют ее жители, является пристанищем для многочисленных корпоративных заводов, офисов и штаб квартир, \
+	а так же имеет при себе крупнейшее и самое престижное учебное заведение во всём ЦПСС - \"Технологический Университет Тау-Кита\".\
+	\
+	Дает бонусный доступ к языку Янгуй."
+
+/datum/uplink_item/item/visible_weapons/dna_trigger
+	name = "Lawson Arms \"DNA lock\" trigger"
+
+/obj/machinery/vending/weapon_machine
+	name = "Lawson Arms Guns&Ammo"
+	desc = "A self-defense equipment vending machine. When you need to take care of that clown."
+	product_slogans = "The best defense is good offense!;Buy for your whole family today!;Nobody can outsmart bullet!;God created man - Lawson Arms made them EQUAL!;Stupidity can be cured! By LEAD.;Dead kids can't bully your children!"
+
+/obj/item/computer_hardware/hard_drive/portable/design/nonlethal_ammo
+	disk_name = "Lawson Arms Nonlethal Magazines Pack"
+
+/obj/item/computer_hardware/hard_drive/portable/design/lethal_ammo
+	disk_name = "Lawson Arms Lethal Magazines Pack"
+
+/obj/item/computer_hardware/hard_drive/portable/design/ammo_boxes_smallarms
+	disk_name = "Lawson Arms .35 and .40 Ammunition"
+
+/obj/item/computer_hardware/hard_drive/portable/design/ammo_boxes_rifle
+	disk_name = "Lawson Arms Rifle Ammunition"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_cheap_guns
+	disk_name = "Lawson Arms Basic - .35 Civilian Pack"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_colt
+	disk_name = "Lawson Arms - .35 Colt 1911"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_revolver_miller
+	disk_name = "Lawson Arms- .40 Miller Revolver"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_revolver_consul
+	disk_name = "Lawson Arms - .40 Consul Revolver"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_revolver_deckard
+	disk_name = "Lawson Arms - .40 Deckard Revolver"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_revolver_mateba
+	disk_name = "Lawson Arms - .40 Mateba Revolver"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_lamia
+	disk_name = "Lawson Arms - .40 Lamia Handgun"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_deagle
+	disk_name = "Lawson Arms - .40 Avasarala Handgun"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_doublebarrel
+	disk_name = "Lawson Arms - .50 Double Barrel Shotgun"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_kammerer
+	disk_name = "Lawson Arms - .50 Kammerer Shotgun"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_gladstone
+	disk_name = "Lawson Arms - .50 Gladstone Shotgun"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_paco
+	disk_name = "Lawson Arms - .35 Paco HG"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_straylight
+	disk_name = "Lawson Arms - .35 Straylight SMG"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_molly
+	disk_name = "Lawson Arms - .35 Molly SMG"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_atreides
+	disk_name = "Lawson Arms - .35 Atreides SMG"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_slaught_o_matic
+	disk_name = "Lawson Arms - .35 Slaught-o-Matic HG"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_wintermute
+	disk_name = "Lawson Arms - .20 Wintermute Assault Rifle"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_sol
+	disk_name = "Lawson Arms - .25 Sol Caseless SMG Pack"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_kalashnikov
+	disk_name = "Lawson Arms - .30 Hunting Rifle Pack"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_kalashnikov_ih
+	disk_name = "Lawson Arms - .30 PD Rifle Pack"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_lenar
+	disk_name = "Lawson Arms - Lenar Grenade Launcher"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_spiderrose
+	disk_name = "Lawson Arms - Spider Rose PDW E"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_martin
+	disk_name = "Lawson Arms - Martin PDW E"
+
+/obj/item/computer_hardware/hard_drive/portable/design/guns/fs_cassad
+	disk_name = "Lawson Arms - Cassad Plasma Rifle"
+
+/obj/structure/sign/faction/frozenstar
+	name = "Lawson Arms"
+
+/datum/language/neohongo
+	name = LANGUAGE_NEOHONGO
+	desc = "The language widely used by Pan-Asian population"
+
+/obj/item/organ/external/robotic/frozen_star
+	name = "\"Lawson Arms\""
+	desc = "Tactical \"Lawson Arms\" blue and gray prosthesis for dangerous environment."
+
+/obj/item/gun_upgrade/trigger/dangerzone
+	name = "Lawson Arms \"Danger Zone\" Trigger"
+
+/obj/item/gun_upgrade/trigger/cop_block
+	name = "Lawson Arms \"Cop Block\" Trigger"
+
+/obj/item/gun_upgrade/trigger/dnalock
+	name = "Lawson Arms \"DNA lock\" Trigger"
+
+/obj/item/gun_upgrade/mechanism/overshooter
+	name = "Lawson Arms \"Overshooter\" internal magazine kit"
+
+/obj/item/gun_upgrade/mechanism/weintraub
+	name = "Lawson Arms \"Weintraub\" full auto kit"
+
+/obj/item/gun_upgrade/scope/watchman
+	name = "Lawson Arms \"Watchman\" scope"
