@@ -447,6 +447,7 @@
 	name = "plastan"
 	icon_state = "sheet-plasteel"
 	item_state = "sheet-metal"
+	color = COLOR_DARK_GUNMETAL
 	price_tag = 50
 	default_type = MATERIAL_PLASTAN
 
