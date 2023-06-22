@@ -5,10 +5,10 @@
 	title = "Alanian Knight"
 
 /datum/job/hydro
-	title = "Neo-Christianity Agrolyte"
+	title = "Alanian Herbalist"
 
 /datum/job/janitor
-	title = "Neo-Christianity Custodian"
+	title = "Alanian Sentiel"
 
 /datum/category_item/setup_option/background/origin/new_rome
 	name = "Авалон"
