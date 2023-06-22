@@ -33,11 +33,11 @@
 	if(grip_type)
 		switch(grip_type)
 			if("wood")
-				return "FS AR [caliber] \"Fall\""
+				return "LA AR [caliber] \"Fall\""
 			if("black")
 				return "BM AR [caliber] \"Wintersun\""
 			if("rubber")
-				return "FS AR [caliber] \"Wintermute\""
+				return "LA AR [caliber] \"Wintermute\""
 			if("excelsior")
 				return "Excelsior AR [caliber] \"Commute\""
 			if("serbian")
