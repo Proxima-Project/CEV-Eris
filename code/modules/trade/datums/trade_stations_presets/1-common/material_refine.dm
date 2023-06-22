@@ -23,7 +23,8 @@
 			/obj/item/stack/material/plasteel/full = good_data("plasteel sheets (x120)", list(3, 5), null),
 			/obj/item/stack/material/wood/full = good_data("wood planks (x120)", list(3, 5), null),
 			/obj/item/stack/material/glass/full = good_data("glass sheets (x120)", list(3, 5), null),
-			/obj/item/stack/material/plasma/full = good_data("plasma sheets (x120)", list(3, 5), null)
+			/obj/item/stack/material/plasma/full = good_data("plasma sheets (x120)", list(3, 5), null),
+			/obj/item/stack/material/titanium/full = good_data("titanium sheets (x120)", list(3,5), null)
 		)
 	)
 	hidden_inventory = list(
@@ -36,7 +37,8 @@
 			/obj/item/stack/material/osmium/full = good_data("osmium ingots (x120)", list(1, 2), null),
 			/obj/item/stack/material/mhydrogen/full = good_data("metallic hydrogen sheets (x120)", list(1, 2), null),
 			/obj/item/stack/material/tritium/full = good_data("tritium ingots (x120)", list(1, 2), null),
-			/obj/item/stack/material/uranium/full = good_data("uranium sheets (x120)", list(1, 2), null)
+			/obj/item/stack/material/uranium/full = good_data("uranium sheets (x120)", list(1, 2), null),
+			/obj/item/stack/material/titanium/full = good_data("plastan sheets (x120)", list(1,3), null)
 		)
 	)
 	offer_types = list(
@@ -50,4 +52,5 @@
 		/obj/item/ore/diamond = offer_data("diamonds", 550, 0),
 		/obj/item/ore/osmium = offer_data("raw platinum", 330, 0),
 		/obj/item/ore/hydrogen = offer_data("raw hydrogen", 250, 0),
+		/obj/item/ore/titanium = offer_data("raw titanium", 300, 0)
 	)
