@@ -2840,6 +2840,7 @@
 #include "proxima\code\game\turf\flooring\flooring_decals.dm"
 #include "proxima\code\game\turf\simulated\walls.dm"
 #include "proxima\code\modules\organs\external\subtypes\vey_med_limbs.dm"
+#include "proxima\code\modules\factions\include_factions.dm"
 #include "proxima\code\modules\TGS\_TGSDefines.dm"
 #include "proxima\code\modules\TGS\TGDMAPI\tgs.dm"
 #include "proxima\code\modules\TGS\TGDMAPI\tgs\includes.dm"
