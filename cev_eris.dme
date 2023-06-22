@@ -2860,6 +2860,7 @@
 #include "proxima\code\modules\organs\external\subtypes\vey_med_limbs.dm"
 // #include "proxima\code\modules\factions\include_factions.dm"
 #include "proxima\code\modules\factions\mirania\mirania.dm"
+#include "proxima\code\modules\factions\command\command.dm"
 #include "proxima\code\modules\factions\lawson_arms\lawson_arms.dm"
 #include "proxima\code\modules\factions\pcrc\pcrc.dm"
 #include "proxima\code\modules\factions\pcrc\jobs.dm"
