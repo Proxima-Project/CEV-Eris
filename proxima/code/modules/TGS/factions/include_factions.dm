@@ -9,3 +9,7 @@
 
 #include "proxima\code\modules\TGS\factions\ftu\ftu.dm"
 #include "proxima\code\modules\TGS\factions\nt\nanotrasens.dm"
+
+#include "proxima\code\modules\TGS\factions\hephestus\engineering.dm"
+
+#include "proxima\code\modules\TGS\factions\avalon\church.dm"

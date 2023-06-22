@@ -29,7 +29,7 @@
 #define LANGUAGE_JIVE	"Гаттер"
 #define LANGUAGE_GERMAN "Миранийский"
 #define LANGUAGE_NEOHONGO "Янгуй"
-#define LANGUAGE_LATIN "Аланин"
+#define LANGUAGE_LATIN "Алаин"
 
 
 #define LANGUAGE_ROBOT "Robot Talk"
