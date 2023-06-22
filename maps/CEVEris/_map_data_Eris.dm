@@ -1,4 +1,6 @@
 #include "overmap-eris.dm"
 #include "shuttles-eris.dm"
-#include "_CEV_Eris.dmm"
+#include "_CEV_Erida.dmm"
 #include "centcomm.dmm"
+#include "_Eris_areas.dm"
+#include "_Erida_areas.dm"
