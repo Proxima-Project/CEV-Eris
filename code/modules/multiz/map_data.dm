@@ -325,13 +325,13 @@ ADMIN_VERB_ADD(/client/proc/test_MD, R_DEBUG, null)
 	return z_level
 
 /obj/map_data/eris
-	name = "Eris"
+	name = "Hyperion"
 	is_station_level = TRUE
 	is_player_level = TRUE
 	is_contact_level = TRUE
 	is_accessable_level = TRUE
 	custom_z_names = TRUE
-	height = 5
+	height = 4
 	holomap_offset_x = -1	// Number of pixels to offset the map right (for centering) for this z
 	holomap_offset_y = -1	// Number of pixels to offset the map up (for centering) for this z
 	holomap_legend_x = 200	// x position of the holomap legend for this z
