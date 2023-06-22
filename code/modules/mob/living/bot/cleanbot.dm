@@ -364,7 +364,7 @@
 		"Born to clean!",
 		"I HATE VAGABONDS I HATE VAGABONDS!!",
 		"It is always morally correct to perform field execution.",
-		"But being as this is a RMB-A 2000, the most expensive robot in Frozen Star catalogue!",
+		"But being as this is a RMB-A 2000, the most expensive robot in PCRC catalogue!",
 		"Do I feel lucky? Well, do you, operative?",
 		"Those neotheologist fucks are up to something...",
 		"None of them know my true power!")

@@ -21,8 +21,8 @@
 	stations_recommended = list("fs_ammo", "style")
 	inventory = list(
 		"Design Disks" = list(
-			/obj/item/computer_hardware/hard_drive/portable/design/nonlethal_ammo = good_data("Frozen Star Nonlethal Magazines Pack", list(1, 10), 500),
-			/obj/item/computer_hardware/hard_drive/portable/design/lethal_ammo = good_data("Frozen Star Lethal Magazines Pack", list(1, 10), 1000)
+			/obj/item/computer_hardware/hard_drive/portable/design/nonlethal_ammo = good_data("Lawson Arms Nonlethal Magazines Pack", list(1, 10), 500),
+			/obj/item/computer_hardware/hard_drive/portable/design/lethal_ammo = good_data("Lawson Arms Lethal Magazines Pack", list(1, 10), 1000)
 		),
 		"Enforce Equipment" = list(
 			/obj/item/handcuffs,
