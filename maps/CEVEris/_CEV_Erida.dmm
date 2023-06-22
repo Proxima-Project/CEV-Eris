@@ -3810,9 +3810,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/eris/security/prison)
-"aiG" = (
-/turf/simulated/floor/tiled/dark,
-/area/eris/rnd/anomalisoltwo)
 "aiH" = (
 /turf/simulated/shuttle/wall/escpod{
 	icon_state = "escpodwall23";
@@ -3858,6 +3855,9 @@
 	tag = "icon-escpodwall24"
 	},
 /area/eris/hallway/side/eschangarb)
+"aiN" = (
+/turf/simulated/floor/tiled/dark,
+/area/eris/rnd/anomalisoltwo)
 "aiO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
@@ -7576,14 +7576,14 @@
 	},
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/surgery)
-"asf" = (
-/obj/structure/table/glass,
-/turf/simulated/floor/tiled/white/brown_platform,
-/area/eris/medical/surgery)
 "asg" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/item/implanter,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/eris/medical/surgery)
+"ash" = (
+/obj/structure/table/glass,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/surgery)
 "asi" = (
@@ -14055,6 +14055,9 @@
 /obj/item/clothing/gloves/stungloves,
 /obj/item/clothing/gloves/stungloves,
 /obj/item/clothing/gloves/stungloves,
+/obj/item/tool/hammer/sledgehammer/ironhammer,
+/obj/item/tool/hammer/sledgehammer/ironhammer,
+/obj/item/tool/hammer/sledgehammer/ironhammer,
 /turf/simulated/floor/tiled/dark/cargo,
 /area/eris/security/armory)
 "aHR" = (
@@ -24279,19 +24282,12 @@
 	},
 /turf/simulated/floor/tiled/white/danger,
 /area/eris/rnd/mixing)
-"bgK" = (
-/obj/structure/table/rack,
-/obj/spawner/rig_module,
-/obj/spawner/rig_module,
-/obj/spawner/rig_module,
-/obj/spawner/rig_module,
-/obj/item/rig/combat/ironhammer/equipped,
-/turf/simulated/floor/tiled/dark/cargo,
-/area/eris/security/armory)
 "bgL" = (
 /obj/structure/table/rack,
 /obj/spawner/rig_module,
 /obj/spawner/rig_module,
+/obj/spawner/rig_module,
+/obj/item/rig_module/held/shield,
 /obj/item/rig/combat/ironhammer/equipped,
 /turf/simulated/floor/tiled/dark/cargo,
 /area/eris/security/armory)
@@ -28671,8 +28667,6 @@
 	},
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/eris/crew_quarters/bar)
-"bqK" = (
-/area/eris/engineering/atmos)
 "bqL" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
@@ -29369,6 +29363,8 @@
 	},
 /obj/machinery/light/small,
 /turf/simulated/floor/reinforced/carbon_dioxide,
+/area/eris/engineering/atmos)
+"bsv" = (
 /area/eris/engineering/atmos)
 "bsw" = (
 /obj/structure/railing{
@@ -35477,15 +35473,15 @@
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/security/armory)
 "bHc" = (
+/obj/structure/table/rack,
+/obj/item/gun/energy/plasma/cassad,
+/obj/item/gun/energy/plasma/cassad,
+/obj/item/gun/energy/plasma/cassad,
+/obj/item/gun/energy/plasma/cassad,
 /obj/machinery/door/blast/shutters/glass{
 	id = "Armoury";
 	name = "Armoury showcase"
 	},
-/obj/structure/table/rack,
-/obj/item/gun/energy/laser,
-/obj/item/gun/energy/laser,
-/obj/item/gun/energy/laser,
-/obj/item/gun/energy/laser,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/security/armory)
 "bHd" = (
@@ -35509,14 +35505,14 @@
 /area/eris/security/armory)
 "bHf" = (
 /obj/structure/table/rack,
+/obj/item/ammo_magazine/ammobox/shotgun,
+/obj/item/ammo_magazine/ammobox/shotgun,
+/obj/item/ammo_magazine/ammobox/shotgun,
+/obj/item/ammo_magazine/ammobox/shotgun,
 /obj/machinery/door/blast/shutters/glass{
 	id = "Armoury";
 	name = "Armoury showcase"
 	},
-/obj/item/gun/energy/plasma/cassad,
-/obj/item/gun/energy/plasma/cassad,
-/obj/item/gun/energy/plasma/cassad,
-/obj/item/gun/energy/plasma/cassad,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/security/armory)
 "bHg" = (
@@ -35539,19 +35535,20 @@
 /area/eris/security/armory)
 "bHh" = (
 /obj/structure/table/rack,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
 /obj/machinery/door/blast/shutters/glass{
 	id = "Armoury";
 	name = "Armoury showcase"
 	},
-/obj/item/ammo_magazine/ihclrifle,
-/obj/item/ammo_magazine/ihclrifle,
-/obj/item/ammo_magazine/ihclrifle,
-/obj/item/ammo_magazine/ihclrifle,
-/obj/item/ammo_magazine/ihclrifle,
-/obj/item/ammo_magazine/ihclrifle,
-/obj/item/ammo_magazine/ihclrifle,
-/obj/item/ammo_magazine/ihclrifle,
-/obj/item/ammo_magazine/ihclrifle,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/security/armory)
 "bHi" = (
@@ -63499,16 +63496,20 @@
 /area/erida/hallway/side/docks)
 "cXz" = (
 /obj/structure/table/rack,
-/obj/item/storage/box/shotgunammo/slug,
-/obj/item/storage/box/shotgunammo/slug,
-/obj/item/storage/box/shotgunammo/slug,
-/obj/item/storage/box/shotgunammo/slug,
+/obj/item/device/radio/intercom{
+	pixel_y = 24
+	},
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
 /obj/machinery/door/blast/shutters/glass{
 	id = "Armoury";
 	name = "Armoury showcase"
-	},
-/obj/item/device/radio/intercom{
-	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/security/armory)
@@ -73566,16 +73567,16 @@
 /area/eris/security/brig)
 "dvH" = (
 /obj/structure/table/rack,
-/obj/item/gun/projectile/automatic/sol,
+/obj/machinery/alarm{
+	pixel_y = 26
+	},
+/obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
+/obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
+/obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
+/obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
 /obj/machinery/door/blast/shutters/glass{
 	id = "Armoury";
 	name = "Armoury showcase"
-	},
-/obj/item/gun/projectile/automatic/sol,
-/obj/item/gun/projectile/automatic/sol,
-/obj/item/gun/projectile/automatic/sol,
-/obj/machinery/alarm{
-	pixel_y = 26
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/security/armory)
@@ -76574,6 +76575,8 @@
 /obj/machinery/camera/network/security{
 	dir = 8
 	},
+/obj/item/gun/projectile/automatic/modular/wintermute/finished,
+/obj/item/gun/projectile/automatic/modular/wintermute/finished,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/security/armory)
 "dBw" = (
@@ -87304,7 +87307,7 @@ agb
 agb
 agb
 agb
-aiG
+aiN
 aur
 aSh
 aSJ
@@ -87456,7 +87459,7 @@ acw
 agb
 aia
 agb
-aiG
+aiN
 aFs
 amF
 aSK
@@ -116709,8 +116712,8 @@ bnt
 aOf
 bpD
 bqI
-bqK
-bqK
+bsv
+bsv
 aHy
 bsT
 btS
@@ -116860,8 +116863,8 @@ aOD
 bnw
 aNU
 aNO
-bqK
-bqK
+bsv
+bsv
 dGQ
 aHy
 btf
@@ -117013,8 +117016,8 @@ bjj
 bpj
 bpE
 bqL
-bqK
-bqK
+bsv
+bsv
 aHy
 btg
 btS
@@ -117072,7 +117075,7 @@ bLA
 aHQ
 aUm
 beM
-bgK
+bgL
 bib
 bkf
 bkE
@@ -117317,8 +117320,8 @@ bow
 aOf
 bpD
 bqM
-bqK
-bqK
+bsv
+bsv
 aHy
 btl
 btT
@@ -117468,8 +117471,8 @@ aOD
 boL
 aNU
 aNO
-bqK
-bqK
+bsv
+bsv
 dGR
 aHy
 btg
@@ -117621,8 +117624,8 @@ bjj
 bpj
 bpE
 brJ
-bqK
-bqK
+bsv
+bsv
 aHy
 btg
 btU
@@ -133675,7 +133678,7 @@ dto
 aph
 apV
 aqU
-asf
+ash
 asP
 axw
 axR
@@ -133979,7 +133982,7 @@ amM
 amM
 amM
 dod
-asf
+ash
 dto
 axy
 apV
