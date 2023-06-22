@@ -19,7 +19,7 @@
 		list("names" = list(), "header" = "Proxima Centauri Risk Control", "flag" = IRONHAMMER),
 		list("names" = list(), "header" = "Zeng-Hu Medical", "flag" = MEDICAL),
 		list("names" = list(), "header" = "Zeng-Hu Research", "flag" = SCIENCE),
-		list("names" = list(), "header" = "Church of Neo-Christianity", "flag" = CHURCH),
+		list("names" = list(), "header" = "Alanian Church of Neo-Christianity", "flag" = CHURCH),
 		list("names" = list(), "header" = "Free Trade Union", "flag" = GUILD),
 		list("names" = list(), "header" = "Civilian", "flag" = CIVILIAN),
 		list("names" = list(), "header" = "Service", "flag" = SERVICE),
