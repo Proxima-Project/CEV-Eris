@@ -74,7 +74,7 @@ SUBSYSTEM_DEF(supply)
 	exports.Cut()
 
 	var/datum/money_account/GA = department_accounts[DEPARTMENT_GUILD]
-	var/datum/transaction/T = new(points, "FTU", "Exports", "Free Trade Union Trading System)
+	var/datum/transaction/T = new(points, "FTU", "Exports", "Free Trade Union Trading System")
 	T.apply_to(GA)
 
 	centcom_message = msg
