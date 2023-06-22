@@ -41,8 +41,8 @@
 	default_description = /datum/organ_description/leg/right
 
 /obj/item/organ/external/robotic/technomancer
-	name = "Technomancer \"Homebrew\""
-	desc = "Technomancer \"branded\" \"functional\" prosthesis."
+	name = "\"Hephaestus Industries\""
+	desc = "Hephaestus Industries prosthesis."
 	armor = list(melee = 2, bullet = 2, energy = 2, bomb = 10, bio = 100, rad = 100)
 	force_icon = 'icons/mob/human_races/cyberlimbs/technomancer.dmi'
 	model = "technomancer"

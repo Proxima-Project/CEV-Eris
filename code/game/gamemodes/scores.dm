@@ -284,7 +284,7 @@ GLOBAL_VAR_INIT(score_technomancer_faction_item_loss, 0)
 	<b>Antagonist contracts completed:</b> [GLOB.completed_antag_contracts] ([to_score_color(GLOB.score_antag_contracts)] Points)<br>
 	<b>Antagonists killed or captured:</b> [GLOB.captured_or_dead_antags] ([to_score_color(GLOB.captured_or_dead_antags_score)] Points)<br>
 	<b>Escaped Antagonists:</b> [GLOB.ironhammer_escaped_antagonists] ([to_score_color(GLOB.ironhammer_escaped_antagonists_score)] Points)<br>
-	<b>IH operatives killed:</b> [GLOB.ironhammer_operative_dead] ([to_score_color(GLOB.ironhammer_operative_dead_score)] Points)<br>
+	<b>PCRC operatives killed:</b> [GLOB.ironhammer_operative_dead] ([to_score_color(GLOB.ironhammer_operative_dead_score)] Points)<br>
 	<b>Final Ironhammer score:</b> [get_color_score(GLOB.ironhammer_score, GLOB.ironhammer_score)] Points<br><br>
 	"}
 
