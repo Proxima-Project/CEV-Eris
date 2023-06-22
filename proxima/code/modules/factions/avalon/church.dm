@@ -2,7 +2,7 @@
 	title = "Neo-Christianity Preacher"
 
 /datum/job/acolyte
-	title = "Neo-Christianity Acolyte"
+	title = "Alanian Knight"
 
 /datum/job/hydro
 	title = "Neo-Christianity Agrolyte"
