@@ -238,20 +238,15 @@
 //Trust me I'm an engineer
 //I think we'll put this shit right here
 var/list/rank_prefix = list(\
-	"PCRC Operative" = "Operative",\
-	"PCRC Inspector" = "Inspector",\
-	"PCRC Medical Specialist" = "Specialist",\
-	"PCRC Gunnery Sergeant" = "Sergeant",\
-	"PCRC Commander" = "Commander",\
-	"Neo-Christianity Preacher" = "Reverend",\
-	"Zeng-Hu Expedition Overseer" = "Overseer",\
-	"Zeng-Hu Biolab Officer" = "Overseer",\
+	"Ironhammer Operative" = "Operative",\
+	"Ironhammer Inspector" = "Inspector",\
+	"Ironhammer Medical Specialist" = "Specialist",\
+	"Ironhammer Gunnery Sergeant" = "Sergeant",\
+	"Ironhammer Commander" = "Lieutenant",\
+	"NeoTheology Preacher" = "Reverend",\
+	"Moebius Expedition Overseer" = "Overseer",\
+	"Moebius Biolab Officer" = "Doctor",\
 	"Captain" = "Captain",\
-	"Fisrt Mate" = "Adjutant",\
-	"Zeng-Hu Doctor" = "Doctor",\
-	"Zeng-Hu Scientist" = "Researcher",\
-	"FTU Merchant" = "Merchant",\
-	"Hephaestus Foreman" = "Foreman"
 	)
 
 /mob/living/carbon/human/proc/rank_prefix_name(name)

@@ -9,7 +9,7 @@
 #define JOBS_MOEBIUS "Zeng-Hu Biolab Officer","Zeng-Hu Doctor","Zeng-Hu Psychiatrist","Zeng-Hu Chemist","Zeng-Hu Paramedic","Zeng-Hu Bio-Engineer","Zeng-Hu Expedition Overseer","Zeng-Hu Scientist","Zeng-Hu Roboticist"
 #define JOBS_CARGO "FTU Merchant","FTU Technician","Guild Miner",
 #define JOBS_CIVILIAN "Club Manager","Club Worker","Club Artist",ASSISTANT_TITLE
-#define JOBS_CHURCH	"Neo-Christianity Preacher","Neo-Christianity Acolyte","Neo-Christianity Agrolyte","Neo-Christianity Custodian"
+#define JOBS_CHURCH	"Neo-Christianity Preacher","Alanian Knight","Neo-Christianity Agrolyte","Neo-Christianity Custodian"
 #define JOBS_NONHUMAN "AI","Robot","pAI"
 #define CREDITS "&cent;"
 #define CREDS "&cent;"
