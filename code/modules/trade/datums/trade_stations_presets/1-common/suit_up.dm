@@ -144,7 +144,7 @@
 			/obj/item/clothing/suit/space/void/security = custom_good_price(520),
 			/obj/item/clothing/suit/space/void/hazardsuit = custom_good_price(312)
 		),
-		"Oberth Attire" = list(
+		"Miranian Attire" = list(		//I fucking hate reinitialize lists
 			/obj/item/clothing/gloves/german,
 			/obj/item/clothing/head/beret/german,
 			/obj/item/clothing/mask/gas/german,
