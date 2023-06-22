@@ -4,8 +4,8 @@
 	armor = list(melee = -1, bullet = -1, energy = -1, bomb = -10, bio = 100, rad = 100)
 	force_icon = 'proxima/icons/mob/human_races/vey-med.dmi'
 	model = "veymed"
-	min_broken_damage = 30
-	min_malfunction_damage = 15
+	min_broken_damage = 20
+	min_malfunction_damage = 10
 	price_tag = 10000
 	bad_type = /obj/item/organ/external/robotic/veymed
 
