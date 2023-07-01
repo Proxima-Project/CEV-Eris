@@ -19,6 +19,7 @@
 	// 8 for plasma concentration
 	// 16 for nitrogen concentration
 	// 32 for carbon dioxide concentration
+	// 64 for hydrogen
 
 	var/datum/radio_frequency/radio_connection
 
@@ -50,11 +51,14 @@
 					signal.data["nitrogen"] = round(100*air_sample.gas["nitrogen"]/total_moles,0.1)
 				if(output&32)
 					signal.data["carbon_dioxide"] = round(100*air_sample.gas["carbon_dioxide"]/total_moles,0.1)
+				if(output&64)
+					signal.data["hydrogen"] = round(100*air_sample.gas["hydrogen"]/total_moles,0.1)
 			else
 				signal.data["oxygen"] = 0
 				signal.data["plasma"] = 0
 				signal.data["nitrogen"] = 0
 				signal.data["carbon_dioxide"] = 0
+				signal.data["hydrogen"] = 0
 		signal.data["sigtype"]="status"
 		radio_connection.post_signal(src, signal, filter = RADIO_ATMOSIA)
 
@@ -132,6 +136,8 @@ obj/machinery/computer/general_air_control/Destroy()
 						sensor_part += "[data["carbon_dioxide"]]% CO2; "
 					if(data["plasma"])
 						sensor_part += "[data["plasma"]]% TX; "
+					if(data["hydrogen"])
+						sensor_part += "[data["hydrogen"]]% H2; "
 				sensor_part += "<HR>"
 
 			else
