@@ -1180,6 +1180,21 @@
 	..()
 	icon_state = "plasma"
 
+/obj/machinery/atmospherics/pipe/tank/hydrogen
+	name = "Pressure Tank (Hydrogen)"
+	description_antag = "Will make people suddenly combust"
+	icon_state = "h2_map"
+
+/obj/machinery/atmospherics/pipe/tank/hydrogen/New()
+	air_temporary = new
+	air_temporary.volume = volume
+	air_temporary.temperature = T20C
+
+	air_temporary.adjust_gas("hydrogen", (start_pressure)*(air_temporary.volume)/(R_IDEAL_GAS_EQUATION*air_temporary.temperature))
+
+	..()
+	icon_state = "hydrogen"
+
 /obj/machinery/atmospherics/pipe/tank/nitrous_oxide
 	name = "Pressure Tank (Nitrous Oxide)"
 	icon_state = "n2o_map"
