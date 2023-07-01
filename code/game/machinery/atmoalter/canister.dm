@@ -69,6 +69,13 @@
 	canister_color = "grey"
 	can_label = 0
 
+/obj/machinery/portable_atmospherics/canister/hydrogen
+	name = "Canister: \[N2]"
+	icon_state = "purple"
+	description_antag = "Causes people to suddenly combust. Very flamable"
+	canister_color = "purple"
+	can_label = 0
+
 /obj/machinery/portable_atmospherics/canister/air/airlock
 	start_pressure = 3 * ONE_ATMOSPHERE
 
@@ -97,8 +104,10 @@
 	icon_state = "redws"
 	canister_color = "redws"
 
-
-
+/obj/machinery/portable_atmospherics/canister/empty/hydrogen
+	name = "Canister: \[N2]"
+	icon_state = "purple"
+	canister_color = "purple"
 
 /obj/machinery/portable_atmospherics/canister/proc/check_change()
 	var/old_flag = update_flag

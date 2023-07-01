@@ -26,7 +26,7 @@
 	var/last_zas_update = null
 
 	var/scrubbing = SCRUBBING
-	var/list/scrubbing_gas = list("carbon_dioxide","sleeping_agent","plasma")
+	var/list/scrubbing_gas = list("carbon_dioxide","sleeping_agent","plasma", "hydrogen")
 	var/expanded_range = FALSE
 
 	var/panic = FALSE //is this scrubber panicked?
@@ -108,6 +108,7 @@
 		"filter_n2" = ("nitrogen" in scrubbing_gas),
 		"filter_co2" = ("carbon_dioxide" in scrubbing_gas),
 		"filter_plasma" = ("plasma" in scrubbing_gas),
+		"filter_h2" = ("hydrogen" in scrubbing_gas),
 		"filter_n2o" = ("sleeping_agent" in scrubbing_gas),
 		"sigtype" = "status"
 	)
@@ -238,6 +239,11 @@
 		toggle += "plasma"
 	else if(signal.data["toggle_tox_scrub"])
 		toggle += "plasma"
+
+	if(!isnull(signal.data["h2_scrub"]) && text2num(signal.data["h2_scrub"]) != ("hydrogen" in scrubbing_gas))
+		toggle += "hydrogen"
+	else if(signal.data["toggle_h2_scrub"])
+		toggle += "hydrogen"
 
 	if(!isnull(signal.data["n2o_scrub"]) && text2num(signal.data["n2o_scrub"]) != ("sleeping_agent" in scrubbing_gas))
 		toggle += "sleeping_agent"
