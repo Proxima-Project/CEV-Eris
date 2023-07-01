@@ -384,6 +384,12 @@
 	nitrogen = 0
 	plasma = ATMOSTANK_PLASMA
 
+/turf/simulated/floor/reinforced/hydrogen
+	oxygen = 0
+	nitrogen = 0
+	hydrogen = ATMOSTANK_HYDROGEN
+
+
 /turf/simulated/floor/reinforced/carbon_dioxide
 	oxygen = 0
 	nitrogen = 0
