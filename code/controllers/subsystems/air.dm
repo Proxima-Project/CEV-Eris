@@ -517,6 +517,8 @@ SUBSYSTEM_DEF(air)
 		return FALSE
 	if(A.carbon_dioxide != B.carbon_dioxide)
 		return FALSE
+	if(A.hydrogen != B.hydrogen)
+		return FALSE
 	if(A.temperature != B.temperature)
 		return FALSE
 

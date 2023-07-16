@@ -272,6 +272,7 @@
 		GM.gas["carbon_dioxide"] = (carbon_dioxide/sum)*amount
 		GM.gas["nitrogen"] = (nitrogen/sum)*amount
 		GM.gas["plasma"] = (plasma/sum)*amount
+		GM.gas["hydrogen"] = (hydrogen/sum)*amount
 
 	GM.temperature = temperature
 	GM.update_values()
