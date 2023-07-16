@@ -1,5 +1,6 @@
 /obj/effect/floor_decal/corner
 	icon_state = "corner_white"
+	icon = 'proxima/icons/turf/flooring/decals.dmi'
 	alpha = 229
 
 /obj/effect/floor_decal/corner/black
