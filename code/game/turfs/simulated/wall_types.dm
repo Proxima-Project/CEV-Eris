@@ -118,11 +118,17 @@
 /turf/simulated/wall/titanium/New(var/newloc)
 	..(newloc, MATERIAL_TITANIUM)
 
+/turf/simulated/wall/titanium/reinforced
+	icon_state = "rgeneric"
+
 /turf/simulated/wall/titanium/reinforced/New(var/newloc)
 	..(newloc, MATERIAL_TITANIUM, MATERIAL_TITANIUM)
 
 /turf/simulated/wall/plastan/New(var/newloc)
 	..(newloc, MATERIAL_PLASTAN)
+
+/turf/simulated/wall/plastan/reinforced
+	icon_state = "rgeneric"
 
 /turf/simulated/wall/plastan/reinforced/New(var/newloc)
 	..(newloc, MATERIAL_PLASTAN, MATERIAL_PLASTAN)
