@@ -1023,6 +1023,9 @@
 	name = "Robotics Laboratory Lockdown";
 	opacity = 0
 	},
+/obj/effect/window_lwall_spawn/reinforced{
+	id = "roboticlab_or"
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "acF" = (
@@ -2286,7 +2289,7 @@
 "afb" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/multi_tile/metal{
-	dir = 4;
+	dir = 2;
 	id_tag = "ETC_hall";
 	name = "Treatment Center"
 	},
@@ -3304,8 +3307,7 @@
 "ahx" = (
 /obj/effect/decal/cleanable/cobweb2,
 /obj/structure/railing{
-	dir = 8;
-	icon_state = "railing0-1"
+	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -3737,13 +3739,12 @@
 /turf/simulated/floor/carpet,
 /area/space)
 "aiG" = (
-/obj/structure/railing{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
 /obj/machinery/alarm{
 	dir = 8;
 	pixel_x = 24
+	},
+/obj/structure/railing{
+	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -3865,6 +3866,7 @@
 /obj/spawner/junk,
 /obj/spawner/junk,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/spawner/closet/maintloot,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/space)
 "ajc" = (
@@ -3872,6 +3874,7 @@
 /obj/spawner/material/building,
 /obj/spawner/junk,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/spawner/closet/maintloot,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/space)
 "ajd" = (
@@ -3944,13 +3947,12 @@
 /obj/machinery/atmospherics/valve{
 	dir = 4
 	},
-/obj/structure/railing{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
 /obj/structure/railing,
 /obj/machinery/atmospherics/valve{
 	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -4565,6 +4567,7 @@
 /area/space)
 "amn" = (
 /obj/effect/floor_decal/industrial/warning,
+/obj/spawner/scrap/low_chance,
 /turf/simulated/floor/plating,
 /area/space)
 "amq" = (
@@ -5837,10 +5840,16 @@
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/space)
 "avO" = (
-/obj/machinery/body_scanconsole{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white/monofloor,
+/obj/structure/table/rack,
+/obj/item/clothing/suit/armor/heavy/ironhammer,
+/obj/item/clothing/suit/armor/heavy/ironhammer,
+/obj/item/clothing/suit/armor/heavy/ironhammer,
+/obj/item/clothing/suit/armor/heavy/ironhammer,
+/obj/item/clothing/head/armor/riot_hud,
+/obj/item/clothing/head/armor/riot_hud,
+/obj/item/clothing/head/armor/riot_hud,
+/obj/item/clothing/head/armor/riot_hud,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "avS" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -6196,9 +6205,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/girder,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/effect/window_lwall_spawn/smartspawn{
+	id = "or2"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -6322,7 +6333,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/girder,
+/obj/effect/window_lwall_spawn/smartspawn{
+	id = "or2"
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "ayp" = (
@@ -6392,11 +6405,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/girder,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawn{
+	id = "or2"
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "ayA" = (
@@ -6505,7 +6520,6 @@
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/space)
 "ayK" = (
-/obj/structure/girder,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -6515,6 +6529,9 @@
 /obj/structure/cable/green{
 	d2 = 4;
 	icon_state = "0-4"
+	},
+/obj/effect/window_lwall_spawn/reinforced{
+	id = "bo_windows"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -7216,8 +7233,8 @@
 /turf/simulated/floor/tiled/white,
 /area/space)
 "aCU" = (
-/obj/item/gun/projectile/automatic/modular/ak/frozen_star,
-/turf/simulated/wall/plastan/reinforced/hull,
+/obj/spawner/scrap/low_chance,
+/turf/simulated/floor/plating,
 /area/space)
 "aCV" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -7370,17 +7387,9 @@
 /turf/simulated/floor/tiled/white/monofloor,
 /area/space)
 "aEa" = (
-/obj/structure/railing{
-	dir = 1;
-	icon_state = "railing0-1"
-	},
 /obj/spawner/junk,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
-	},
-/obj/structure/railing{
-	dir = 4;
-	icon_state = "railing0-1"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -8393,23 +8402,13 @@
 /turf/simulated/floor/tiled/white/monofloor,
 /area/space)
 "aKw" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/effect/window_lwall_spawn/smartspawn{
+	id = "or2"
 	},
-/obj/structure/table/rack,
-/obj/item/clothing/suit/armor/heavy/ironhammer,
-/obj/item/clothing/suit/armor/heavy/ironhammer,
-/obj/item/clothing/suit/armor/heavy/ironhammer,
-/obj/item/clothing/suit/armor/heavy/ironhammer,
-/obj/item/clothing/head/armor/riot_hud,
-/obj/item/clothing/head/armor/riot_hud,
-/obj/item/clothing/head/armor/riot_hud,
-/obj/item/clothing/head/armor/riot_hud,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/window_lwall_spawn/smartspawn{
+	id = "or2"
+	},
+/turf/simulated/floor/plating,
 /area/space)
 "aKy" = (
 /obj/machinery/camera/network/security{
@@ -8420,6 +8419,24 @@
 	dir = 4;
 	pixel_x = 21
 	},
+/obj/structure/table/rack,
+/obj/item/clothing/suit/armor/vest/ironhammer,
+/obj/item/clothing/suit/armor/vest/ironhammer,
+/obj/item/clothing/suit/armor/vest/ironhammer,
+/obj/item/clothing/suit/armor/vest/ironhammer,
+/obj/item/clothing/suit/armor/vest/ironhammer,
+/obj/item/clothing/suit/armor/vest/ironhammer,
+/obj/item/clothing/suit/armor/vest/full/ironhammer,
+/obj/item/clothing/suit/armor/vest/full/ironhammer,
+/obj/item/clothing/head/armor/helmet/ironhammer,
+/obj/item/clothing/head/armor/helmet/ironhammer,
+/obj/item/clothing/head/armor/helmet/ironhammer,
+/obj/item/clothing/head/armor/helmet/ironhammer,
+/obj/item/clothing/head/armor/helmet/ironhammer,
+/obj/item/clothing/head/armor/helmet/ironhammer,
+/obj/item/clothing/head/armor/helmet/ironhammer,
+/obj/item/clothing/head/armor/helmet/ironhammer,
+/obj/item/clothing/head/armor/helmet/ironhammer,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "aKA" = (
@@ -8566,15 +8583,6 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/table/rack,
-/obj/item/clothing/suit/armor/bulletproof/ironhammer,
-/obj/item/clothing/suit/armor/bulletproof/ironhammer,
-/obj/item/clothing/suit/armor/bulletproof/ironhammer,
-/obj/item/clothing/suit/armor/bulletproof/ironhammer,
-/obj/item/clothing/head/armor/bulletproof/ironhammer_full,
-/obj/item/clothing/head/armor/bulletproof/ironhammer_full,
-/obj/item/clothing/head/armor/bulletproof/ironhammer_full,
-/obj/item/clothing/head/armor/bulletproof/ironhammer_full,
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "aLx" = (
@@ -8592,6 +8600,7 @@
 	dir = 8;
 	pixel_x = 21
 	},
+/obj/structure/table/rack,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "aLA" = (
@@ -8794,6 +8803,9 @@
 /obj/spawner/toy/figure,
 /obj/spawner/pack/tech_loot,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/spawner/pack/tech_loot,
+/obj/spawner/pack/tech_loot/low_chance,
+/obj/spawner/pack/tech_loot/low_chance,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/space)
 "aMB" = (
@@ -9039,6 +9051,7 @@
 "aNA" = (
 /obj/structure/table/rack,
 /obj/item/storage/box/lights/mixed,
+/obj/spawner/pack/tech_loot,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/space)
 "aNE" = (
@@ -9247,7 +9260,12 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/structure/table/rack,
+/obj/structure/table/steel_reinforced,
+/obj/item/storage/box/chemimp{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/storage/box/trackimp,
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "aOG" = (
@@ -9623,12 +9641,14 @@
 /turf/simulated/floor/plating,
 /area/space)
 "aQp" = (
-/obj/structure/table/rack,
-/obj/item/gun/projectile/automatic/sol,
-/obj/item/gun/projectile/automatic/sol,
-/obj/item/gun/projectile/automatic/sol,
-/obj/item/gun/projectile/automatic/sol,
-/turf/simulated/floor/tiled/dark,
+/obj/structure/railing{
+	anchored = 1;
+	dir = 4;
+	icon_state = "railing0";
+	tag = "icon-railing0 (EAST)"
+	},
+/obj/spawner/scrap/low_chance,
+/turf/simulated/floor/plating,
 /area/space)
 "aQq" = (
 /obj/machinery/shieldwallgen,
@@ -9848,12 +9868,11 @@
 	dir = 4
 	},
 /obj/structure/lattice,
-/obj/structure/railing{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 6
+	},
+/obj/structure/railing{
+	dir = 8
 	},
 /turf/simulated/open,
 /area/space)
@@ -10277,17 +10296,15 @@
 /turf/simulated/open,
 /area/space)
 "aSe" = (
-/obj/structure/railing{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
 /obj/machinery/atmospherics/valve,
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/simulated/open,
 /area/space)
 "aSf" = (
 /obj/structure/railing{
-	dir = 4;
-	icon_state = "railing0-1"
+	dir = 4
 	},
 /turf/simulated/open,
 /area/space)
@@ -10393,16 +10410,8 @@
 	pixel_y = -24
 	},
 /obj/structure/cable/green,
-/obj/structure/railing{
-	dir = 1;
-	icon_state = "railing0-1"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
-	},
-/obj/structure/railing{
-	dir = 8;
-	icon_state = "railing0-1"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -10413,10 +10422,6 @@
 /obj/machinery/alarm{
 	dir = 1;
 	pixel_y = -22
-	},
-/obj/structure/railing{
-	dir = 1;
-	icon_state = "railing0-1"
 	},
 /obj/machinery/atmospherics/valve{
 	dir = 4
@@ -10655,8 +10660,8 @@
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/space)
 "aTA" = (
-/obj/structure/closet/l3closet/security,
-/turf/simulated/floor/tiled/dark/techfloor_grid,
+/obj/spawner/pack/machine,
+/turf/simulated/floor/plating,
 /area/space)
 "aTB" = (
 /obj/machinery/embedded_controller/radio/airlock/access_controller{
@@ -10719,21 +10724,19 @@
 /area/space)
 "aTH" = (
 /obj/structure/railing{
-	dir = 8;
-	icon_state = "railing0-1"
+	dir = 1
 	},
 /obj/structure/railing{
-	dir = 1;
-	icon_state = "railing0-1"
+	dir = 8
 	},
+/obj/spawner/closet/tech,
 /turf/simulated/floor/plating,
 /area/space)
 "aTI" = (
-/obj/spawner/junk,
 /obj/structure/railing{
-	dir = 1;
-	icon_state = "railing0-1"
+	dir = 1
 	},
+/obj/spawner/scrap/dense,
 /turf/simulated/floor/plating,
 /area/space)
 "aTL" = (
@@ -10742,9 +10745,15 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/space)
 "aTN" = (
-/obj/spawner/closet/tech,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/dark/techfloor_grid,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/table/rack,
+/obj/spawner/pack/tech_loot,
+/obj/spawner/pack/tech_loot,
+/obj/spawner/pack/tech_loot/low_chance,
+/obj/spawner/pack/tech_loot/low_chance,
+/turf/simulated/floor/plating,
 /area/space)
 "aTO" = (
 /obj/structure/closet/crate,
@@ -12313,6 +12322,9 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
+/obj/effect/window_lwall_spawn/reinforced{
+	id = "bo_windows"
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "bPR" = (
@@ -12984,7 +12996,6 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/structure/girder,
 /obj/machinery/door/blast/regular{
 	density = 0;
 	dir = 4;
@@ -12992,6 +13003,10 @@
 	id_tag = "Prison Gate";
 	name = "Security Blast Door";
 	opacity = 0
+	},
+/obj/effect/window_lwall_spawn/reinforced{
+	autoset_name = 0;
+	beacon_name = "Security - Lobby"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -13304,12 +13319,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "dIA" = (
-/obj/structure/railing{
-	dir = 4;
-	icon_state = "railing0-1"
-	},
 /obj/structure/railing,
 /obj/machinery/atmospherics/valve{
+	dir = 4
+	},
+/obj/structure/railing,
+/obj/structure/railing{
 	dir = 4
 	},
 /turf/simulated/open,
@@ -13610,6 +13625,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/table/rack,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "emb" = (
@@ -13794,10 +13810,19 @@
 /turf/simulated/floor/tiled/white,
 /area/space)
 "eHb" = (
-/obj/machinery/bodyscanner{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white/monofloor,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/closet/crate/secure/gear,
+/obj/item/cell/medium/high,
+/obj/item/cell/medium/high,
+/obj/item/cell/medium/high,
+/obj/item/cell/medium/high,
+/obj/item/cell/medium/high,
+/obj/item/cell/medium/high,
+/obj/item/cell/medium/high,
+/obj/item/cell/medium/high,
+/obj/item/cell/medium/high,
+/obj/item/cell/medium/high,
+/turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "eIb" = (
 /obj/structure/curtain/open/shower,
@@ -14083,10 +14108,9 @@
 /turf/simulated/floor/reinforced/oxygen,
 /area/space)
 "fvb" = (
-/obj/machinery/sleeper{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white/monofloor,
+/obj/structure/railing,
+/obj/spawner/scrap,
+/turf/simulated/floor/plating,
 /area/space)
 "fxb" = (
 /obj/machinery/meter,
@@ -14591,6 +14615,7 @@
 /obj/item/device/radio/intercom/department/security{
 	pixel_y = 23
 	},
+/obj/structure/table/rack,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "gHb" = (
@@ -14859,10 +14884,6 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/obj/effect/window_lwall_spawn/reinforced{
-	autoset_name = 0;
-	beacon_name = "Security - Lobby"
-	},
 /turf/simulated/floor/plating,
 /area/space)
 "hnN" = (
@@ -14940,6 +14961,7 @@
 	opacity = 0
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/airlock/multi_tile/glass,
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/space)
 "huf" = (
@@ -15770,6 +15792,16 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"iDt" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/spawner/closet/maintloot,
+/turf/simulated/floor/plating,
+/area/space)
 "iEb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/wood,
@@ -15834,23 +15866,11 @@
 /turf/simulated/floor/tiled/white,
 /area/eris/rnd/lab)
 "iLA" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/structure/railing{
+	dir = 1
 	},
-/obj/structure/table/rack,
-/obj/item/clothing/suit/armor/laserproof/full,
-/obj/item/clothing/suit/armor/laserproof/full,
-/obj/item/clothing/suit/armor/laserproof/full,
-/obj/item/clothing/suit/armor/laserproof/full,
-/obj/item/clothing/head/armor/laserproof,
-/obj/item/clothing/head/armor/laserproof,
-/obj/item/clothing/head/armor/laserproof,
-/obj/item/clothing/head/armor/laserproof,
-/turf/simulated/floor/tiled/dark,
+/obj/spawner/scrap/low_chance,
+/turf/simulated/floor/plating,
 /area/space)
 "iLB" = (
 /obj/machinery/door/airlock/maintenance,
@@ -16231,6 +16251,15 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
+/area/space)
+"jlz" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/item/ammo_magazine/srifle/drum,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "jnd" = (
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -16935,6 +16964,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/structure/table/rack,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "ksK" = (
@@ -17066,9 +17096,6 @@
 /area/space)
 "kIb" = (
 /obj/structure/closet/secure_closet/personal/patient,
-/obj/machinery/body_scanconsole{
-	pixel_y = 24
-	},
 /obj/spawner/toy/plushie,
 /turf/simulated/floor/tiled/white/monofloor,
 /area/space)
@@ -17087,9 +17114,6 @@
 /turf/simulated/floor/tiled/white/monofloor,
 /area/space)
 "kLb" = (
-/obj/machinery/bodyscanner{
-	dir = 1
-	},
 /obj/machinery/light{
 	dir = 1
 	},
@@ -17206,9 +17230,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/body_scanconsole{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/white/monofloor,
 /area/space)
 "kTl" = (
@@ -17286,6 +17307,10 @@
 	icon_state = "0-8"
 	},
 /obj/structure/table/rack,
+/obj/item/gun/projectile/boltgun/fs,
+/obj/item/gun/projectile/boltgun/fs,
+/obj/item/gun/projectile/boltgun/fs,
+/obj/item/gun/projectile/boltgun/fs,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "lcL" = (
@@ -17750,6 +17775,7 @@
 	pixel_x = -6;
 	pixel_y = 24
 	},
+/obj/structure/table/rack,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "lVb" = (
@@ -17865,7 +17891,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "mfg" = (
-/obj/structure/girder,
+/obj/effect/window_lwall_spawn/reinforced{
+	id = "bo_windows"
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "mgb" = (
@@ -18919,10 +18947,12 @@
 /turf/simulated/floor/tiled,
 /area/space)
 "nJo" = (
-/obj/structure/girder,
 /obj/structure/cable/green{
 	d2 = 4;
 	icon_state = "0-4"
+	},
+/obj/effect/window_lwall_spawn/reinforced{
+	id = "bo_windows"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -19111,10 +19141,15 @@
 /area/space)
 "nZm" = (
 /obj/structure/table/rack,
-/obj/spawner/junk/nondense,
-/obj/spawner/junk/nondense,
-/obj/spawner/junk/nondense,
-/turf/simulated/floor/tiled/dark/techfloor_grid,
+/obj/item/clothing/suit/armor/bulletproof/ironhammer,
+/obj/item/clothing/suit/armor/bulletproof/ironhammer,
+/obj/item/clothing/suit/armor/bulletproof/ironhammer,
+/obj/item/clothing/suit/armor/bulletproof/ironhammer,
+/obj/item/clothing/head/armor/bulletproof/ironhammer_full,
+/obj/item/clothing/head/armor/bulletproof/ironhammer_full,
+/obj/item/clothing/head/armor/bulletproof/ironhammer_full,
+/obj/item/clothing/head/armor/bulletproof/ironhammer_full,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "nZB" = (
 /obj/machinery/teleport/station,
@@ -19167,11 +19202,11 @@
 /turf/simulated/wall/plastan/reinforced,
 /area/space)
 "oby" = (
-/obj/structure/girder,
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
+/obj/structure/table/rack,
+/obj/spawner/lathe_disk/low_chance,
+/obj/spawner/pack/tech_loot,
+/obj/spawner/pack/tech_loot,
+/obj/spawner/pack/tech_loot,
 /turf/simulated/floor/plating,
 /area/space)
 "obZ" = (
@@ -19303,10 +19338,10 @@
 /turf/simulated/floor/tiled/white,
 /area/space)
 "onM" = (
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
+/obj/structure/railing{
+	dir = 1
 	},
+/obj/spawner/closet/maintloot,
 /turf/simulated/floor/plating,
 /area/space)
 "oox" = (
@@ -19504,7 +19539,12 @@
 	dir = 4;
 	level = 2
 	},
-/obj/structure/table/rack,
+/obj/structure/table/steel_reinforced,
+/obj/machinery/button/remote/blast_door{
+	id = "Armoury";
+	name = "Armoury Access";
+	req_access = list(3)
+	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "oLK" = (
@@ -19760,10 +19800,23 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/table/steel_reinforced,
+/obj/machinery/recharger{
+	pixel_x = 8
+	},
+/obj/machinery/recharger,
+/obj/machinery/recharger{
+	pixel_x = -8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "oXx" = (
 /obj/structure/table/rack,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/plastic/full,
+/obj/item/stack/material/glass/full,
+/obj/item/stack/material/plasteel/random,
+/obj/item/stack/material/plasteel/random,
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "pab" = (
@@ -19980,6 +20033,18 @@
 	pixel_x = 21
 	},
 /obj/structure/table/rack,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/ammo_magazine/ihclrifle,
+/obj/item/gun/projectile/automatic/sol,
+/obj/item/gun/projectile/automatic/sol,
+/obj/item/gun/projectile/automatic/sol,
+/obj/item/gun/projectile/automatic/sol,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "puw" = (
@@ -20367,8 +20432,8 @@
 /turf/simulated/floor/tiled/white,
 /area/space)
 "pUb" = (
-/obj/structure/closet/toolcloset,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/spawner/closet/maintloot,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/space)
 "pUr" = (
@@ -20760,17 +20825,17 @@
 /turf/simulated/floor/tiled/white,
 /area/space)
 "qyX" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/railing{
+	anchored = 1;
+	dir = 4;
+	icon_state = "railing0";
+	tag = "icon-railing0 (EAST)"
 	},
-/obj/structure/table/rack,
-/obj/item/gun/projectile/boltgun/fs,
-/obj/item/gun/projectile/boltgun/fs,
-/obj/item/gun/projectile/boltgun/fs,
-/obj/item/gun/projectile/boltgun/fs,
-/turf/simulated/floor/tiled/dark,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/spawner/scrap/low_chance,
+/turf/simulated/floor/plating,
 /area/space)
 "qzb" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
@@ -21134,6 +21199,12 @@
 "qWF" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/ammo_magazine/srifle,
+/obj/item/ammo_magazine/srifle,
+/obj/item/ammo_magazine/srifle,
+/obj/item/ammo_magazine/srifle,
+/obj/item/ammo_magazine/srifle,
+/obj/item/ammo_magazine/srifle,
 /obj/item/gun/projectile/automatic/modular/wintermute/finished,
 /obj/item/gun/projectile/automatic/modular/wintermute/finished,
 /turf/simulated/floor/tiled/dark/monofloor,
@@ -21165,6 +21236,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
+/obj/spawner/pack/machine,
 /turf/simulated/floor/plating,
 /area/space)
 "qZb" = (
@@ -21679,6 +21751,14 @@
 "rEK" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/rack,
+/obj/item/ammo_magazine/lrifle,
+/obj/item/ammo_magazine/lrifle,
+/obj/item/ammo_magazine/lrifle,
+/obj/item/ammo_magazine/lrifle,
+/obj/item/ammo_magazine/lrifle,
+/obj/item/ammo_magazine/lrifle,
+/obj/item/ammo_magazine/lrifle,
+/obj/item/ammo_magazine/lrifle,
 /obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
 /obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
 /obj/item/gun/projectile/automatic/modular/ak/ironhammer_securities,
@@ -21738,6 +21818,11 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/autolathe/loaded,
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = -4;
+	pixel_y = 12
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
@@ -22257,6 +22342,18 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/space)
+"sqs" = (
+/obj/structure/table/rack,
+/obj/item/computer_hardware/hard_drive/portable/design/ammo_boxes_rifle,
+/obj/item/computer_hardware/hard_drive/portable/design/lethal_ammo,
+/obj/item/computer_hardware/hard_drive/portable/design/nonlethal_ammo,
+/obj/item/computer_hardware/hard_drive/portable/design/ammo_boxes_smallarms,
+/obj/item/computer_hardware/hard_drive/portable/design/armor/ih/bulletproof,
+/obj/item/computer_hardware/hard_drive/portable/design/armor/ih,
+/obj/item/computer_hardware/hard_drive/portable/design/security,
+/obj/item/computer_hardware/hard_drive/portable/design/misc,
+/turf/simulated/floor/tiled/dark,
+/area/space)
 "srb" = (
 /obj/machinery/camera/network/research{
 	c_tag = "Research - Miscellaneous Test Chamber";
@@ -22329,12 +22426,13 @@
 /area/space)
 "sww" = (
 /obj/structure/railing{
+	anchored = 1;
 	dir = 4;
-	icon_state = "railing0-1"
+	icon_state = "railing0";
+	tag = "icon-railing0 (EAST)"
 	},
 /obj/structure/railing{
-	dir = 1;
-	icon_state = "railing0-1"
+	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -22368,7 +22466,7 @@
 	},
 /obj/machinery/door/airlock/multi_tile/glass{
 	autoset_access = 0;
-	dir = 8;
+	dir = 2;
 	id_tag = "BrigFoyer";
 	name = "Security Wing";
 	req_access = list(list("ACCESS_SEC_DOORS","ACCESS_TORCH_CREW"))
@@ -22539,6 +22637,13 @@
 	},
 /turf/simulated/floor/tiled/white/monofloor,
 /area/space)
+"sHr" = (
+/obj/structure/closet/crate/secure/gear{
+	name = "ammo crate";
+	req_access = list(63)
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/space)
 "sJr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -22571,6 +22676,13 @@
 	},
 /turf/simulated/floor/tiled/white/bluecorner,
 /area/eris/security/lobby)
+"sMy" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/spawner/scrap,
+/turf/simulated/floor/plating,
+/area/space)
 "sNb" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -22951,11 +23063,10 @@
 /area/space)
 "tgu" = (
 /obj/structure/railing,
-/obj/structure/railing{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
 /obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 8
+	},
+/obj/structure/railing{
 	dir = 8
 	},
 /turf/simulated/open,
@@ -23218,9 +23329,9 @@
 /turf/simulated/wall/plastan/reinforced/hull,
 /area/space)
 "tzg" = (
-/obj/spawner/closet/tech,
 /obj/spawner/junk/nondense,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/spawner/closet/maintloot,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/space)
 "tzv" = (
@@ -23490,6 +23601,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/table/rack,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "umz" = (
@@ -23521,11 +23633,14 @@
 /turf/simulated/floor/tiled,
 /area/space)
 "urd" = (
-/obj/structure/railing{
-	dir = 4;
-	icon_state = "railing0-1"
-	},
 /obj/structure/railing,
+/obj/structure/railing{
+	anchored = 1;
+	dir = 4;
+	icon_state = "railing0";
+	tag = "icon-railing0 (EAST)"
+	},
+/obj/spawner/scrap/low_chance,
 /turf/simulated/floor/plating,
 /area/space)
 "usV" = (
@@ -23590,12 +23705,11 @@
 	dir = 4
 	},
 /obj/structure/lattice,
-/obj/structure/railing{
-	dir = 4;
-	icon_state = "railing0-1"
-	},
 /obj/machinery/atmospherics/pipe/zpipe/down{
 	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
 	},
 /turf/simulated/open,
 /area/space)
@@ -23977,6 +24091,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/multi_tile/glass,
 /turf/simulated/floor/tiled/white,
 /area/space)
 "vIP" = (
@@ -24059,6 +24174,18 @@
 /obj/item/device/lighting/toggleable/flashlight,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
+/area/space)
+"vXV" = (
+/obj/structure/table/rack,
+/obj/item/clothing/suit/armor/laserproof/full,
+/obj/item/clothing/suit/armor/laserproof/full,
+/obj/item/clothing/suit/armor/laserproof/full,
+/obj/item/clothing/suit/armor/laserproof/full,
+/obj/item/clothing/head/armor/laserproof,
+/obj/item/clothing/head/armor/laserproof,
+/obj/item/clothing/head/armor/laserproof,
+/obj/item/clothing/head/armor/laserproof,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "vZI" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -24194,6 +24321,7 @@
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
+/obj/structure/table/rack,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "wyb" = (
@@ -24333,6 +24461,10 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/space)
+"xfa" = (
+/obj/spawner/closet/maintloot,
+/turf/simulated/floor/tiled/dark/techfloor_grid,
+/area/space)
 "xhX" = (
 /obj/structure/table/steel,
 /obj/item/clipboard,
@@ -24352,6 +24484,13 @@
 	id = "rndpost"
 	},
 /turf/simulated/floor/plating,
+/area/space)
+"xlc" = (
+/obj/structure/table/rack,
+/obj/item/tool/hammer/sledgehammer/ironhammer,
+/obj/item/tool/hammer/sledgehammer/ironhammer,
+/obj/item/tool/hammer/sledgehammer/ironhammer,
+/turf/simulated/floor/tiled/dark/monofloor,
 /area/space)
 "xoo" = (
 /obj/machinery/door/blast/regular{
@@ -24474,8 +24613,10 @@
 /area/space)
 "xBk" = (
 /obj/structure/railing{
+	anchored = 1;
 	dir = 4;
-	icon_state = "railing0-1"
+	icon_state = "railing0";
+	tag = "icon-railing0 (EAST)"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -24664,8 +24805,12 @@
 /turf/simulated/floor/tiled/white,
 /area/space)
 "ykr" = (
-/obj/structure/closet/toolcloset,
-/turf/simulated/floor/tiled/dark/techfloor_grid,
+/obj/structure/table/rack,
+/obj/spawner/gun/cheap/low_chance,
+/obj/spawner/gun/handmade,
+/obj/spawner/pack/gun_loot/low_chance,
+/obj/spawner/ammo/lowcost,
+/turf/simulated/floor/plating,
 /area/space)
 
 (1,1,1) = {"
@@ -32055,7 +32200,7 @@ xPU
 xPU
 xPU
 xPU
-aCU
+xPU
 xPU
 xPU
 wEn
@@ -32250,12 +32395,12 @@ sik
 sik
 xPU
 xPU
-erb
-erb
-erb
-erb
-uex
 aOE
+aOE
+aOE
+aOE
+xlc
+eHb
 kSs
 etI
 sBg
@@ -32655,13 +32800,13 @@ vMH
 xCS
 wvZ
 huf
-xJG
-xJG
-xJG
+avO
+nZm
+vXV
 xJG
 oLz
 oXx
-aQp
+xJG
 xJG
 rEK
 xPU
@@ -32857,13 +33002,13 @@ daB
 xCS
 gGO
 daN
-aKw
+eiF
 aLw
-iLA
+eiF
 eiF
 oXv
 rKP
-pEb
+jlz
 xJG
 tiQ
 xPU
@@ -33064,8 +33209,8 @@ aLx
 qiL
 xJG
 aOF
-oXx
-qyX
+sqs
+oOb
 xJG
 qWF
 xPU
@@ -33465,9 +33610,9 @@ lRa
 cxk
 aKy
 aLz
-uex
-uex
 aOG
+aOG
+sHr
 aOG
 lcI
 pud
@@ -33663,7 +33808,7 @@ aCv
 aCv
 hGs
 xCS
-qnz
+mfg
 hbP
 xCS
 xCS
@@ -33870,7 +34015,7 @@ aJn
 aKA
 aLA
 aMD
-onM
+nJo
 aOI
 aPv
 xYM
@@ -35082,7 +35227,7 @@ lcS
 taR
 tJM
 pIA
-oby
+bOZ
 whm
 wEb
 xYM
@@ -36676,7 +36821,7 @@ whd
 akX
 whd
 qgw
-xxB
+qnz
 pIA
 mjb
 xCS
@@ -36878,7 +37023,7 @@ whd
 whd
 whd
 qgw
-xxB
+qnz
 pIA
 mkb
 xCS
@@ -37080,7 +37225,7 @@ tgT
 bxz
 tgT
 qgw
-xxB
+qnz
 qwk
 art
 xYM
@@ -39297,8 +39442,8 @@ xPU
 iPV
 ahP
 uXe
-azp
-xxB
+iLA
+aCU
 amn
 anm
 anm
@@ -39498,9 +39643,9 @@ xPU
 afP
 agM
 ahb
-ykr
+dEb
 qYy
-xxB
+aTA
 amn
 ann
 anm
@@ -41534,7 +41679,7 @@ xYM
 axi
 aRI
 pIA
-mfg
+qnz
 aBB
 aCR
 aCR
@@ -41736,7 +41881,7 @@ xYM
 axD
 bHp
 pIA
-mfg
+aKw
 aBC
 mTb
 aCT
@@ -42140,7 +42285,7 @@ acE
 pIA
 aRI
 pIA
-mfg
+qnz
 aBE
 mKq
 aCV
@@ -42342,7 +42487,7 @@ ldb
 pIA
 lib
 pIA
-mfg
+qnz
 aBF
 aCR
 aCR
@@ -43770,7 +43915,7 @@ uXe
 lfM
 uXe
 xYM
-shq
+pUb
 uXe
 aRJ
 aSD
@@ -44152,7 +44297,7 @@ umT
 tJO
 iHX
 tJO
-mfg
+qnz
 oCf
 pjV
 jul
@@ -44175,7 +44320,7 @@ xYM
 xYM
 xYM
 xYM
-uXe
+xfa
 aRL
 aEa
 xPU
@@ -44551,8 +44696,8 @@ xCS
 dMb
 tJO
 iHX
-eHb
-avO
+tJO
+tJO
 adu
 afa
 bkb
@@ -44579,7 +44724,7 @@ lxs
 xxY
 tLL
 xYM
-xxB
+rKD
 aRI
 uXe
 xPU
@@ -45157,8 +45302,8 @@ xCS
 sLb
 agB
 pPa
-fvb
-fvb
+tJO
+tJO
 adO
 tJO
 afD
@@ -45189,7 +45334,7 @@ xYM
 xYM
 xYM
 xDX
-aTA
+dEb
 xPU
 xPU
 xPU
@@ -47209,7 +47354,7 @@ snb
 sxb
 xYM
 aTe
-wNX
+aTN
 xPU
 xPU
 aaa
@@ -47613,7 +47758,7 @@ spb
 tJO
 seb
 aTe
-wNX
+onM
 xPU
 xPU
 xPU
@@ -47815,7 +47960,7 @@ rwb
 szb
 xYM
 aTe
-wNX
+onM
 xPU
 xPU
 xPU
@@ -48623,7 +48768,7 @@ xCS
 xCS
 xCS
 aTe
-aTN
+pUb
 xPU
 xPU
 xPU
@@ -49798,7 +49943,7 @@ xCS
 aes
 afs
 uKa
-wNX
+azp
 abj
 abj
 abx
@@ -50000,7 +50145,7 @@ xCS
 xCS
 aft
 agt
-wNX
+azp
 xxB
 abp
 xxB
@@ -50408,7 +50553,7 @@ aer
 aer
 ajG
 akK
-wNX
+sMy
 xYM
 xYM
 vfK
@@ -50610,9 +50755,9 @@ ahx
 aiG
 ajH
 akL
-wNX
-nZm
-gyj
+iLA
+aiY
+fvb
 uKa
 fdQ
 xYM
@@ -50812,13 +50957,13 @@ xPU
 xPU
 ajI
 akM
-sww
-xBk
+qyX
+aQp
 urd
 uKa
-xxB
-xxB
-gyj
+aCU
+aCU
+fvb
 atn
 auj
 avx
@@ -51034,7 +51179,7 @@ xYM
 aED
 aFM
 aFM
-aeR
+iDt
 aJj
 pyb
 pUb
@@ -51435,9 +51580,9 @@ ayJ
 mwJ
 swb
 xYM
+oby
 xxB
-xxB
-ldP
+ykr
 xPU
 xPU
 xPU
