@@ -446,6 +446,13 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/tiled/steel,
 /area/space)
+"anF" = (
+/obj/machinery/door/airlock/glass_security{
+	name = "Security Office";
+	req_access = list(1)
+	},
+/turf/simulated/floor/tiled/white/cargo,
+/area/space)
 "anM" = (
 /turf/simulated/shuttle/wall/mining{
 	icon_state = "1,19"
@@ -609,7 +616,9 @@
 /area/space)
 "asB" = (
 /obj/structure/table/rack,
-/obj/machinery/door/blast/shutters/glass,
+/obj/machinery/door/blast/shutters/glass{
+	id = "fo_gun"
+	},
 /obj/item/gun/projectile/revolver/mateba,
 /turf/simulated/floor/carpet/turcarpet,
 /area/space)
@@ -3347,6 +3356,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/sblucarpet,
+/area/space)
+"cAQ" = (
+/obj/item/modular_computer/console/preset/security/records{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "cBj" = (
 /obj/machinery/door/blast/regular{
@@ -6437,6 +6452,12 @@
 	},
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/grass,
+/area/space)
+"eWq" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "eWx" = (
 /obj/item/modular_computer/console/preset/engineering/alarms{
@@ -10787,6 +10808,11 @@
 	},
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/space)
+"irl" = (
+/obj/structure/table/standard,
+/obj/item/folder/blue,
+/turf/simulated/floor/tiled/white/cargo,
+/area/space)
 "irx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -11057,6 +11083,12 @@
 /obj/item/stack/nanopaste,
 /obj/item/stack/nanopaste,
 /turf/simulated/floor/tiled/steel/brown_perforated,
+/area/space)
+"iAd" = (
+/obj/item/modular_computer/console/preset/security/camera{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "iAo" = (
 /obj/structure/railing,
@@ -12578,6 +12610,12 @@
 	},
 /turf/simulated/floor/tiled/steel/monofloor,
 /area/space)
+"jyG" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bluecorner,
+/area/space)
 "jyN" = (
 /obj/item/modular_computer/console/preset/command{
 	dir = 8
@@ -13440,6 +13478,10 @@
 /obj/item/ammo_magazine/slsrifle,
 /obj/item/ammo_magazine/slsrifle,
 /obj/item/ammo_magazine/slsrifle,
+/obj/machinery/door/blast/shutters/glass{
+	id = "Armoury";
+	name = "Armoury showcase"
+	},
 /turf/simulated/floor/tiled/dark/cargo,
 /area/space)
 "kdg" = (
@@ -14589,6 +14631,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
+"lav" = (
+/obj/effect/window_lwall_spawn/smartspawn,
+/turf/simulated/floor/tiled/white/cargo,
+/area/space)
 "laA" = (
 /obj/structure/table/glass,
 /obj/item/storage/freezer/medical,
@@ -14718,6 +14764,10 @@
 /obj/landmark/join/start/ihc,
 /obj/structure/bed/chair/comfy/black,
 /turf/simulated/floor/carpet/bcarpet,
+/area/space)
+"lgT" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/steel/bluecorner,
 /area/space)
 "lhg" = (
 /obj/structure/multiz/stairs/active/bottom,
@@ -22653,6 +22703,11 @@
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/space)
+"rts" = (
+/obj/structure/table/standard,
+/obj/item/book/manual/wiki/security_ironparagraphs,
+/turf/simulated/floor/tiled/white/cargo,
+/area/space)
 "rtt" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -24949,6 +25004,11 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/space)
+"tbc" = (
+/obj/structure/table/standard,
+/obj/machinery/recharger,
+/turf/simulated/floor/tiled/white/cargo,
+/area/space)
 "tbv" = (
 /obj/structure/railing{
 	dir = 4
@@ -26042,6 +26102,27 @@
 	icon_state = "7,16"
 	},
 /area/shuttle/mining/station)
+"tUC" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/table/rack,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/gun/projectile/automatic/straylight,
+/obj/item/gun/projectile/automatic/straylight,
+/obj/item/gun/projectile/automatic/straylight,
+/obj/item/gun/projectile/automatic/straylight,
+/obj/machinery/door/blast/shutters/glass{
+	id = "Armoury";
+	name = "Armoury showcase"
+	},
+/turf/simulated/floor/tiled/dark/cargo,
+/area/space)
 "tUO" = (
 /turf/simulated/shuttle/floor/science{
 	icon_state = "8,17"
@@ -26210,6 +26291,15 @@
 	req_access = list(1)
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
+/area/space)
+"ucP" = (
+/obj/machinery/button/remote/blast_door/id_card{
+	id = "Bluespace_Biosyphon";
+	name = "Bluespace Biosyphon id lock";
+	pixel_x = -28;
+	req_access = list(1)
+	},
+/turf/simulated/floor/tiled/steel/bluecorner,
 /area/space)
 "ucU" = (
 /obj/structure/railing{
@@ -28165,7 +28255,8 @@
 /area/space)
 "vQd" = (
 /obj/machinery/button/remote/blast_door/id_card{
-	pixel_x = 25
+	pixel_x = 25;
+	id = "fo_gun"
 	},
 /obj/machinery/alarm{
 	pixel_y = 26
@@ -29751,6 +29842,11 @@
 "wVc" = (
 /obj/machinery/vending/tool,
 /turf/simulated/floor/tiled/steel,
+/area/space)
+"wVs" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/donut,
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "wVw" = (
 /obj/machinery/computer/shuttle_control/explore/exploration_shuttle,
@@ -87563,9 +87659,9 @@ nEY
 nEY
 nEY
 nEY
-nEY
-nEY
-nEY
+sQx
+sQx
+sQx
 sQx
 xDL
 xDL
@@ -87765,7 +87861,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 uAT
@@ -87967,7 +88063,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 uAT
@@ -88169,7 +88265,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -88371,15 +88467,15 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
 gRu
-jFN
 scJ
 cUK
 ilp
+tUC
 rCK
 mSA
 sQx
@@ -88573,7 +88669,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -88775,7 +88871,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -88977,7 +89073,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -89179,7 +89275,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -89381,7 +89477,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -89583,11 +89679,11 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
-rCK
+jFN
 rCK
 rCK
 rCK
@@ -89785,7 +89881,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -89987,7 +90083,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -90189,7 +90285,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 uAT
@@ -90391,7 +90487,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 uAT
@@ -125337,7 +125433,6 @@ nEY
 nEY
 nEY
 nEY
-nEY
 sQx
 sQx
 sQx
@@ -125345,7 +125440,8 @@ sQx
 sQx
 sQx
 sQx
-nEY
+sQx
+sQx
 nEY
 nEY
 nEY
@@ -125539,15 +125635,15 @@ nEY
 nEY
 nEY
 nEY
-nEY
 sQx
-nEY
-nEY
-nEY
-nEY
-nEY
+uAT
+uAT
+jyG
+uAT
+uAT
+uAT
+ucP
 sQx
-nEY
 nEY
 nEY
 nEY
@@ -125741,15 +125837,15 @@ nEY
 nEY
 nEY
 nEY
-nEY
 sQx
-nEY
-nEY
-nEY
-nEY
-nEY
+uAT
+rts
+irl
+wVs
+uAT
+uAT
+uAT
 sQx
-nEY
 nEY
 nEY
 nEY
@@ -125943,15 +126039,15 @@ nEY
 nEY
 nEY
 nEY
-nEY
 sQx
-nEY
-nEY
-nEY
-nEY
-nEY
+uAT
+uAT
+uAT
+uAT
+uAT
+uAT
+uAT
 sQx
-nEY
 nEY
 nEY
 nEY
@@ -126145,15 +126241,15 @@ nEY
 nEY
 nEY
 nEY
-nEY
 sQx
-nEY
-nEY
-nEY
-nEY
-nEY
+irl
+cAQ
+uAT
+cAQ
+irl
+uAT
+uAT
 sQx
-nEY
 nEY
 nEY
 nEY
@@ -126347,15 +126443,15 @@ nEY
 nEY
 nEY
 nEY
-nEY
 sQx
-nEY
-nEY
-nEY
-nEY
-nEY
+eWq
+eWq
+lgT
+eWq
+eWq
+uAT
+uAT
 sQx
-nEY
 nEY
 nEY
 nEY
@@ -126549,15 +126645,15 @@ nEY
 nEY
 nEY
 nEY
-nEY
 sQx
-nEY
-nEY
-nEY
-nEY
-nEY
+tbc
+iAd
+uAT
+iAd
+tbc
+uAT
+uAT
 sQx
-nEY
 nEY
 nEY
 nEY
@@ -126751,13 +126847,13 @@ nEY
 nEY
 nEY
 nEY
-nEY
 sQx
-nEY
-nEY
-nEY
-nEY
-nEY
+eWq
+eWq
+uAT
+eWq
+eWq
+uAT
 sQx
 sQx
 sQx
@@ -126953,13 +127049,13 @@ nEY
 nEY
 nEY
 nEY
-nEY
 sQx
-nEY
-nEY
-nEY
-nEY
-nEY
+uAT
+uAT
+uAT
+uAT
+uAT
+uAT
 sQx
 uWn
 rCK
@@ -127158,10 +127254,10 @@ nEY
 nEY
 sQx
 sQx
+anF
 sQx
 sQx
-nEY
-nEY
+sQx
 sQx
 uWn
 rCK
@@ -127358,7 +127454,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 uAT
@@ -127560,7 +127656,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 uAT
@@ -127762,7 +127858,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -127964,7 +128060,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -128166,12 +128262,12 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
-sQx
-sQx
+wnU
+wnU
 sQx
 xtB
 uAT
@@ -128368,7 +128464,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 uAT
@@ -128570,7 +128666,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 uAT
@@ -128772,13 +128868,13 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
-sQx
+lav
 aYy
-sQx
+lav
 sQx
 sQx
 kkr
@@ -128974,7 +129070,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -129176,10 +129272,10 @@ nEY
 nEY
 nEY
 nEY
-nEY
-uAT
-uAT
 sQx
+uAT
+uAT
+lav
 shc
 vPZ
 vPZ
@@ -129378,10 +129474,10 @@ nEY
 nEY
 nEY
 nEY
-nEY
-uAT
-uAT
 sQx
+uAT
+uAT
+lav
 bby
 vPZ
 ebN
@@ -129580,10 +129676,10 @@ nEY
 nEY
 nEY
 nEY
-nEY
-uAT
-uAT
 sQx
+uAT
+uAT
+lav
 pkh
 vPZ
 nXQ
@@ -129782,10 +129878,10 @@ nEY
 nEY
 nEY
 nEY
-nEY
-uAT
-uAT
 sQx
+uAT
+uAT
+lav
 xwR
 vPZ
 qvb
@@ -129984,10 +130080,10 @@ nEY
 nEY
 nEY
 nEY
-nEY
-uAT
-uAT
 sQx
+uAT
+uAT
+lav
 vxs
 vPZ
 qMo
@@ -130186,7 +130282,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -130388,7 +130484,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 sQx
@@ -130590,7 +130686,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 uAT
@@ -130623,7 +130719,7 @@ rCK
 rCK
 rCK
 sQx
-oJF
+rCK
 uii
 wwt
 rWJ
@@ -130792,7 +130888,7 @@ nEY
 nEY
 nEY
 nEY
-nEY
+sQx
 uAT
 uAT
 uAT
@@ -130994,11 +131090,11 @@ nEY
 nEY
 nEY
 nEY
-nEY
-nEY
-nEY
-nEY
-nEY
+sQx
+sQx
+sQx
+sQx
+sQx
 sQx
 vsB
 vsB
